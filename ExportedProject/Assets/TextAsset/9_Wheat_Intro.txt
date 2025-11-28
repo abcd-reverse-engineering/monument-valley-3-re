@@ -1,0 +1,42 @@
+WaitForTitleScreen
+
+Nav: 8.39, 0.88, 8.82
+
+# Level sections rise from the wheat
+WaitSeconds: 8
+Mover: Dragger, 10.00
+Nav: -3.61, 12.75, -11.18
+Mover: Dragger, 0.00
+Nav: -2.61, -0.13, -4.18
+WaitSeconds: 4
+Mover: Rotator, -90.00
+Mover: Dragger, 3.00
+Nav: -7.61, 9.75, -14.18
+Mover: Rotator, 90.00
+Mover: Dragger, 0.00
+Nav: -6.61, 5.75, -10.14
+Mover: Rotator, 270.00
+Nav: -6.61, 5.76, -3.18
+Mover: Rotator, 180.00
+Nav: -4.61, 6.26, 0.82
+
+# Camera pan to second section
+WaitSeconds: 22
+
+Mover: Rotate: Top T, 90.00
+Nav: 105.61, -26.32, 41.57
+
+Mover: Rotate: Top T, -90.00
+Mover: Move: L dragger, 6.00
+Nav: 96.36, -20.95, 29.32
+WaitSeconds: 4
+
+Nav: 92.36, -21.07, 30.32
+Nav: 96.36, -22.07, 23.32
+Mover: Rotate: Top T, -270.00
+Nav: 98.36, -21.07, 29.32
+Mover: Move: L dragger, 0.00
+Nav: 104.36, -19.07, 30.32
+Mover: Move: L dragger, 6.00
+Mover: Rotate: Top T, -180.00
+Nav: 111.11, -24.32, 49.57

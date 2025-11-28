@@ -1,0 +1,55 @@
+Event	ID	Name			Wwise Object Path	Notes
+	228468475	amb_prelude_pt_01_play			\Chapter_Events\Chapter_01_Prelude\amb_prelude_pt_01_play	
+	418978010	lvl_prelude_boat_arrives_play			\Chapter_Events\Chapter_01_Prelude\lvl_prelude_boat_arrives_play	
+	553904251	amb_prelude_ocean_wide_stop			\Chapter_Events\Chapter_01_Prelude\amb_prelude_ocean_wide_stop	
+	654169102	mus_prelude_boatride_titles_stop			\Chapter_Events\Chapter_01_Prelude\mus_prelude_boatride_titles_stop	
+	1574030232	mus_prelude_intro_pad_stop			\Chapter_Events\Chapter_01_Prelude\mus_prelude_intro_pad_stop	
+	1848958313	mus_prelude_mv3_title_stop			\Chapter_Events\Chapter_01_Prelude\mus_prelude_mv3_title_stop	
+	2073815298	int_prelude_rotator_tone_stop			\Chapter_Events\Chapter_01_Prelude\int_prelude_rotator_tone_stop	
+	3237508855	lvl_village_boatem_arrives_longer_play			\Chapter_Events\Chapter_01_Prelude\lvl_village_boatem_arrives_longer_play	
+	3245130804	mus_prelude_boatride_titles_play			\Chapter_Events\Chapter_01_Prelude\mus_prelude_boatride_titles_play	
+	3392898481	amb_prelude_pt_01_stop			\Chapter_Events\Chapter_01_Prelude\amb_prelude_pt_01_stop	
+	3730556288	int_prelude_rotator_tone_play			\Chapter_Events\Chapter_01_Prelude\int_prelude_rotator_tone_play	
+	3731677229	amb_prelude_ocean_wide_play			\Chapter_Events\Chapter_01_Prelude\amb_prelude_ocean_wide_play	
+	3800548604	mus_prelude_lighthouse_illuminate_chord_play			\Chapter_Events\Chapter_01_Prelude\mus_prelude_lighthouse_illuminate_chord_play	
+	3829060771	mus_prelude_mv3_title_play			\Chapter_Events\Chapter_01_Prelude\mus_prelude_mv3_title_play	
+	3979689127	mus_prelude_intro_opening_play			\Chapter_Events\Chapter_01_Prelude\mus_prelude_intro_opening_play	
+	4017893030	mus_prelude_intro_pad_play			\Chapter_Events\Chapter_01_Prelude\mus_prelude_intro_pad_play	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3865385278	rotator_angle_8_step			\Movers\Movers Generic & Templates\rotator_angle_8_step	
+
+Switch	ID	Name	Switch Group			Notes
+	201729271	note8	rotator_angle_8_step			
+	201729272	note7	rotator_angle_8_step			
+	201729273	note6	rotator_angle_8_step			
+	201729274	note5	rotator_angle_8_step			
+	201729275	note4	rotator_angle_8_step			
+	201729276	note3	rotator_angle_8_step			
+	201729277	note2	rotator_angle_8_step			
+	201729278	note1	rotator_angle_8_step			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4019712908	mover_angle			\Default Work Unit\Movers\mover_angle	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1029170903	Tremolo (Custom)	Wwise Tremolo			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	3400222	int_prelude_rotator_tone_05	Y:\Projects\mv3\mv3-wwise\.cache\2D\{2DA89563-7CA9-A8A4-ACC9-8D0BA8FE13F1}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_01_Prelude\Level_Act1_Prelude\Interactions\int_prelude_rotator_tone\int_prelude_rotator_tone_05		53537
+	15353520	int_prelude_rotator_tone_03	Y:\Projects\mv3\mv3-wwise\.cache\22\{22C95074-ABC0-D9E8-EF41-448115A93078}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_01_Prelude\Level_Act1_Prelude\Interactions\int_prelude_rotator_tone\int_prelude_rotator_tone_03		55725
+	76633821	amb_prelude_ocean_wide	Y:\Projects\mv3\mv3-wwise\.cache\7D\{7D5FEA03-9894-857B-B304-772BFD73D249}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_01_Prelude\Level_Act1_Prelude\Ambient + Music\amb_prelude_ocean_wide		460181
+	135386369	int_prelude_rotator_tone_07	Y:\Projects\mv3\mv3-wwise\.cache\0F\{0FCA1DBF-B610-B873-1F1A-471D0915105D}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_01_Prelude\Level_Act1_Prelude\Interactions\int_prelude_rotator_tone\int_prelude_rotator_tone_07		53201
+	154898266	int_prelude_rotator_tone_02	Y:\Projects\mv3\mv3-wwise\.cache\40\{407E6F01-2CC0-2043-A963-49FD10587A87}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_01_Prelude\Level_Act1_Prelude\Interactions\int_prelude_rotator_tone\int_prelude_rotator_tone_02		53792
+	205971114	amb_prelude_pt_01	Y:\Projects\mv3\mv3-wwise\.cache\3E\{3EE3A74B-1661-ED97-5010-FFFB2CBB407E}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_01_Prelude\Level_Act1_Prelude\Ambient + Music\amb_prelude_pt_01		542516
+	216509975	mus_prelude_boatride_titles	Y:\Projects\mv3\mv3-wwise\.cache\74\{74F770F7-1ECB-A739-BE51-D20F9B884EB3}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_01_Prelude\Level_Act1_Prelude\Ambient + Music\mus_prelude_boatride_titles		690344
+	306213028	int_prelude_rotator_tone_04	Y:\Projects\mv3\mv3-wwise\.cache\52\{528C1EC1-7DE6-3903-4FDE-33ED21851626}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_01_Prelude\Level_Act1_Prelude\Interactions\int_prelude_rotator_tone\int_prelude_rotator_tone_04		55506
+	346703801	mus_prelude_intro_pad	Y:\Projects\mv3\mv3-wwise\.cache\BE\{BE7D6CBF-0698-3E1E-7583-971411AF58B8}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_01_Prelude\Level_Act1_Prelude\Ambient + Music\mus_prelude_intro_pad		450683
+	532507830	int_prelude_rotator_tone_01	Y:\Projects\mv3\mv3-wwise\.cache\68\{6879EB02-CDA4-2955-7821-2DABCD8ADB02}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_01_Prelude\Level_Act1_Prelude\Interactions\int_prelude_rotator_tone\int_prelude_rotator_tone_01		56430
+	630530495	lvl_village_boatem_arrives_longer	Y:\Projects\mv3\mv3-wwise\.cache\D7\{D73ED60C-8A52-46E3-99B9-2DD95BC3B682}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_01_Prelude\Level_Act1_Prelude\Level Events\lvl_village_boatem_arrives_longer		108757
+	751156002	int_prelude_rotator_tone_06	Y:\Projects\mv3\mv3-wwise\.cache\B4\{B4C0270E-CD5E-1E3E-8CBD-AE4F88679AD4}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_01_Prelude\Level_Act1_Prelude\Interactions\int_prelude_rotator_tone\int_prelude_rotator_tone_06		53872
+	761792432	mus_prelude_lighthouse_illuminate_chord	Y:\Projects\mv3\mv3-wwise\.cache\4F\{4F6CC300-DB43-3EBB-CB2F-AA47A3D1AD16}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_01_Prelude\Level_Act1_Prelude\Ambient + Music\mus_prelude_lighthouse_illuminate_chord		109081
+	845739019	lvl_prelude_boat_arrives	Y:\Projects\mv3\mv3-wwise\.cache\C1\{C1026366-1F94-0AB3-3F69-D8B4BA980A41}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_01_Prelude\Level_Act1_Prelude\Level Events\lvl_prelude_boat_arrives		84116
+	920003478	mus_prelude_intro_opening	Y:\Projects\mv3\mv3-wwise\.cache\C5\{C557288B-8DC9-5A69-F191-763B799D6ABB}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_01_Prelude\Level_Act1_Prelude\Ambient + Music\mus_prelude_intro_opening		255886
+	931877144	mus_prelude_mv3_title	Y:\Projects\mv3\mv3-wwise\.cache\47\{475FED22-CA08-EBE3-3E80-6CBE15877480}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_01_Prelude\Level_Act1_Prelude\Ambient + Music\mus_prelude_mv3_title		1062621
+

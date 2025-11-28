@@ -1,0 +1,42 @@
+WaitForTitleScreen
+
+
+Nav: -23.52, -23.00, -22.50
+
+# Fog Clears
+WaitSeconds: 10
+
+# Plant spline nav tends to get stuck at high time scales
+TimeScale: 2
+Mover: towerMover (1), 8.00
+Nav: -29.47, -4.67, -33.81
+Mover: towerMover (1), 10.00
+Nav: -10.04, -20.60, -11.02
+
+# Flower Tower part 2
+WaitSeconds: 12
+Mover: towerMover, 12.00
+Nav: -13.56, 11.20, -19.89
+Mover: towerMover, 8.00
+Nav: -12.04, 9.40, -9.02
+Mover: towerMover, 10.00
+Nav: -15.02, 20.35, -18.44
+Mover: towerMover, 8.00
+Nav: -9.04, 11.40, -11.02
+Nav: -10.04, 11.40, -9.52
+
+# Flower double tower
+WaitSeconds: 16
+Mover: flowerMoverLeft, 6.00
+Mover: flowerMoverRight, 4.00
+Nav: -23.79, 54.08, -28.72
+Mover: flowerMoverRight, 12.00
+Nav: -21.29, 59.15, -26.14
+Mover: flowerMoverLeft, 12.00
+Mover: flowerMoverRight, 16.00
+Nav: -26.17, 59.84, -20.58
+Mover: flowerMoverLeft, 20.00
+Nav: -24.14, 63.87, -18.59
+Mover: flowerMoverRight, 20.00
+Nav: -13.10, 60.52, -12.32
+TimeScale: default

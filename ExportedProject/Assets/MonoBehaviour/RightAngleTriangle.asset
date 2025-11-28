@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 842783720, guid: 2588fb1dc7688e7a6367ccad0c6da679, type: 3}
+  m_Name: RightAngleTriangle
+  m_EditorClassIdentifier:
+  vertices:
+  - point: {x: 0.5, y: -0.5}
+    normal: {x: 0.70710677, y: 0.70710677}
+    u: 0
+  - point: {x: 0.5, y: -0.5}
+    normal: {x: -0, y: -1}
+    u: 0
+  - point: {x: -0.5, y: -0.5}
+    normal: {x: -0, y: -1}
+    u: 0
+  - point: {x: -0.5, y: -0.5}
+    normal: {x: -1, y: 0}
+    u: 0
+  - point: {x: -0.5, y: 0.5}
+    normal: {x: -1, y: 0}
+    u: 0
+  - point: {x: -0.5, y: 0.5}
+    normal: {x: 0.70710677, y: 0.70710677}
+    u: 0
+  lineIndices: 000000000100000002000000030000000400000005000000

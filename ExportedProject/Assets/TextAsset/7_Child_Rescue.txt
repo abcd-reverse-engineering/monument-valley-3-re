@@ -1,0 +1,32 @@
+WaitForTitleScreen
+
+# Sail to island
+Sail: -20.41, -1.50, 14.46
+Sail: -19.23, -1.50, -18.35
+Dock: -13.00, -1.50, -15.00
+
+# Child puzzle
+Nav: -10.00, 1.50, -10.00
+Mover: Dragger 1, 5.00
+Nav: -5.00, 1.50, -7.00
+Mover: Rotator 1, -90.00
+Nav: 7.00, 1.50, 3.00
+
+# Wait for child to finish moving
+WaitSeconds: 4
+Mover: Rotator 1, 0.00
+Nav: -5.00, 1.50, -7.00
+WaitSeconds: 2
+Nav: 7.00, 5.63, 3.00
+
+# Wait for gate reveal
+WaitSeconds: 15
+Nav: 7.00, 1.50, 3.00
+Nav: -7.00, 1.50, -10.00
+Mover: Dragger 1, 0.00
+BoardBoat
+
+# Sail through gate
+Sail: -12.64, -1.50, -21.54
+Sail: 25.31, -1.50, 5.23
+Sail: 33.65, -1.50, 9.22

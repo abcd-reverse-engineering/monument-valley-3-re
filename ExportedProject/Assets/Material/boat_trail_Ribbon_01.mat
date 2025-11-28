@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: boat_trail_Ribbon_01
+  m_Shader: {fileID: 4800000, guid: d23e6749e19abbd4db2804de8614cc85, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - AO_LERP
+  - CAM_SPACE_TEX_WRAP_CLAMP
+  - CAM_TEX_BLEND_MULT
+  - MAIN_TEXTURE_MULT
+  - POINTLIGHTS_ON
+  - VERTEX_COLOR_ON
+  - VERT_LERP
+  - Y_FOG_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: c79ba0245af185d4ea02b13a2d233ca9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AOColorBlend: 2
+      _BlackLevel: 0
+      _BumpScale: 1
+      _CameraSpaceTexAngle: 0
+      _CameraSpaceTexBlend: 1
+      _CameraSpaceTexWrap: 1
+      _CubeMapExposure: 1
+      _CubeMapZoom: 0.5
+      _CullMode: 2
+      _Cutoff: 0.5
+      _DensityAmount: 1
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _DstMode: 0
+      _EditorTab: 0
+      _EditorTime: 0
+      _F0: 0
+      _Float0: 0
+      _Glossiness: 0.5
+      _GlowAmount: 0
+      _GlowInteractive: 0
+      _GlowMaskLerpValue: 0
+      _HueShift: 0.745
+      _IlluminationMode: 0
+      _MainTexBlend: 1
+      _MainTexLerpValue: 0
+      _MaxAlpha: 1
+      _Metallic: 0
+      _MidtoneLevel: 0.5
+      _Mode: 0
+      _NoiseIntensity: 0
+      _NormalStrength: 1
+      _OcclusionStrength: 1
+      _OffsetScale: 1
+      _Optimize: 0
+      _Parallax: 0.02
+      _PointLightOffset: 1
+      _Roughness: 1
+      _SaturationShift: 0.27
+      _SrcBlend: 1
+      _SrcMode: 1
+      _StencilComp: 8
+      _StencilRef: 21
+      _Subtractive: 0
+      _TrailLength: 0.813
+      _TransAmbient: 0.2
+      _TransDirect: 1
+      _TransNormalDistortion: 0.1
+      _TransScattering: 2
+      _TransShadow: 0.9
+      _Translucency: 18.3
+      _UVPingPongRange: 1
+      _UVScrollMode: 0
+      _UVScrollSpeed: 0.03
+      _UVSec: 0
+      _ValueShift: 0
+      _VertexColorBlend: 1
+      _WhiteLevel: 1
+      _WobbleDirection: 7
+      _WobbleFrequency: 0.5
+      _WobbleInvWavelength: 10
+      _WobbleMagnitude: 0.1
+      _WobbleSpace: 0
+      _YFogMax: -30.879591
+      _YFogMin: -23.749641
+      _ZTest: 4
+      _ZWrite: 1
+      __dirty: 0
+    m_Colors:
+      _AOColor: {r: 0.073661536, g: 0.18415385, b: 0.266, a: 1}
+      _AdditiveColor: {r: 0.017532917, g: 0.018546835, b: 0.01886791, a: 1}
+      _AltXColor: {r: 1, g: 0, b: 0, a: 1}
+      _AltYColor: {r: 0, g: 1, b: 0, a: 1}
+      _AltZColor: {r: 0, g: 0, b: 1, a: 1}
+      _CamDirection: {r: 0.5773503, g: -0.5773503, b: 0.5773502, a: 0}
+      _CameraSpaceTexEnd: {r: 10, g: 10, b: 0, a: 1}
+      _CameraSpaceTexStart: {r: -10, g: -10, b: 0, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 0.5}
+      _DiffuseColor: {r: 1, g: 1, b: 0, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _GlowColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+      _LightPoint: {r: 0, g: 0, b: 0, a: 1}
+      _MainTexTint: {r: 0.8254717, g: 0.90805995, b: 1, a: 1}
+      _OffsetPosition: {r: 0, g: 0, b: 0, a: 0}
+      _Plane0: {r: 0, g: 2.9206276E-06, b: -1.0000001, a: 4.9400125}
+      _Plane1: {r: 0, g: 1, b: 0, a: -1000}
+      _RimColor: {r: 1, g: 0.9009434, b: 0.9009434, a: 1}
+      _TintColor: {r: 1, g: 1, b: 1, a: 1}
+      _UVScrollDirection: {r: 0, g: -1, b: 0, a: 1}
+      _Vector0: {r: 0, g: -0.4, b: 0, a: 0}
+      _VertexColor: {r: 0.2267711, g: 0.25914112, b: 0.5283019, a: 1}
+      _WobbleVectorDirection: {r: 1, g: 0, b: 1, a: 1}
+      _WobbleVectorOrthogonal: {r: 0, g: 1, b: 0, a: 0}
+      _X2Color: {r: 0, g: 0.19328295, b: 0.80239624, a: 1}
+      _XColor: {r: 0.6462264, g: 0.6959758, b: 1, a: 1}
+      _XGradEnd: {r: -2.6009371, g: 3.3150449, b: 5.9159837, a: 0}
+      _XGradStart: {r: -4.0237713, g: 0.42580238, b: 4.4495745, a: 0}
+      _Y2Color: {r: 1, g: 1, b: 1, a: 1}
+      _YColor: {r: 1, g: 0.9858491, b: 0.9858491, a: 1}
+      _YFogColor: {r: 0.56078434, g: 0.65882355, b: 0.8901961, a: 1}
+      _YGradEnd: {r: -1.2282943, g: 1.3021678, b: 2.5304627, a: 0}
+      _YGradStart: {r: -11.844806, g: -20.35037, b: -8.505566, a: 0}
+      _Z2Color: {r: 0.42849207, g: 0.57670975, b: 0.95951277, a: 1}
+      _ZColor: {r: 0.37624598, g: 0.39373195, b: 0.8396226, a: 0}
+      _ZGradEnd: {r: 1.4492083, g: -0.7660693, b: -2.2152781, a: 0}
+      _ZGradStart: {r: 2.6911023, g: 1.8707858, b: -0.82031673, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,25 @@
+WaitForTitleScreen
+
+WaitSeconds: 20
+Tap: LighthouseTapTrigger
+
+# Some parts of this cut scene don't time scale properly.
+# It can be fixed by integrating "Player Moves Away"
+# bookmark into the main cutscene sequence without
+# needing a separate trigger
+
+TimeScale: 2
+WaitSeconds: 45
+TimeScale: default
+
+Nav: 2.00, -11.75, 19.25
+# Nomad dialogue
+WaitSeconds: 10
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 10
+
+Nav: 5.00, -11.75, 28.50

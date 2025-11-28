@@ -1,0 +1,16 @@
+WaitForTitleScreen
+
+# Time scale was altered right at the end of the last scene
+TimeScale: default
+
+Mover: mover_rotator, -270.00
+Nav: 6.00, 1.00, 0.01
+Mover: mover_rotator, -450.00
+Nav: -4.82, -5.15, -1.86
+Mover: mover_rotator, -540.00
+Nav: -14.28, 7.16, -9.33
+WaitSeconds: 4
+Mover: mover_rotator, -180.00
+Nav: -5.34, -1.64, -11.34
+Mover: mover_rotator, -90.00
+Nav: 2.50, 5.00, 2.96

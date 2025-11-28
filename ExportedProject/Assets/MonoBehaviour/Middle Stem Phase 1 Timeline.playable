@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 337831424, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Middle Stem Phase 1 Timeline
+  m_EditorClassIdentifier:
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 114180965330737612}
+  - {fileID: 114420382051651928}
+  m_FixedDuration: 11.366666666666667
+  m_EditorSettings:
+    m_Framerate: 60
+    m_ScenePreview: 1
+  m_DurationMode: 1
+  m_MarkerTrack: {fileID: 0}
+--- !u!114 &114180965330737612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Middle Stem
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 273dcf9c7ea452346969a88fbcdbf1d9, type: 2}
+  - {fileID: 11400000, guid: 30e3bad6459af684094b697e5f622e33, type: 2}
+  - {fileID: 11400000, guid: f11079882c081ec498acd06b1cf8dc1a, type: 2}
+  - {fileID: 11400000, guid: 8bac9aca9e4e3af49b5996d77ac71752, type: 2}
+  - {fileID: 11400000, guid: f0da7ad5a0d22ab4ea607e26c3bc8e54, type: 2}
+  - {fileID: 11400000, guid: 852a4b05210039d4bb85dde3cd91e4b0, type: 2}
+  - {fileID: 11400000, guid: 5a2d7625f969fde4ebeb9caaaf5cf839, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114420382051651928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Leaf Left 2 (1)
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 6e6c6da04f427a34d9e725caf7024ab8, type: 2}
+  - {fileID: 11400000, guid: fe3118d140b5aa34aa8c51455cc6e285, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []

@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 320824434, guid: 2588fb1dc7688e7a6367ccad0c6da679, type: 3}
+  m_Name: Credits Text Style Sheet
+  m_EditorClassIdentifier:
+  DefaultFont: {fileID: 11400000, guid: ddc0e06dea656a2439949874dc29238f, type: 2}
+  Header:
+    Font:
+      m_TableReference:
+        m_TableCollectionName: GUID:cef5e653478ff479ba0de3bd979d8e6a
+      m_TableEntryReference:
+        m_KeyId: 93832063591899136
+        m_Key:
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+    FontSize: 19
+    FontSizeOverrides: []
+    Bold: 1
+    AllCaps: 0
+    CharacterSpacing: -2
+    CharacterSpacingOverrides:
+    - LocaleCode: zh-Hant
+      Value: 2
+    - LocaleCode: zh
+      Value: 2
+    - LocaleCode: ko
+      Value: 0
+    - LocaleCode: ja
+      Value: 0
+    LineSpaceBeforeText: 135
+    LineHeight: 94
+  SubHeader:
+    Font:
+      m_TableReference:
+        m_TableCollectionName: GUID:cef5e653478ff479ba0de3bd979d8e6a
+      m_TableEntryReference:
+        m_KeyId: 93827616786604032
+        m_Key:
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+    FontSize: 9
+    FontSizeOverrides:
+    - LocaleCode: zh-Hant
+      Value: 11
+    - LocaleCode: zh
+      Value: 11
+    - LocaleCode: ko
+      Value: 11
+    - LocaleCode: ja
+      Value: 11
+    Bold: 1
+    AllCaps: 1
+    CharacterSpacing: 0.2
+    CharacterSpacingOverrides: []
+    LineSpaceBeforeText: 112
+    LineHeight: 124
+  Body:
+    Font:
+      m_TableReference:
+        m_TableCollectionName: GUID:cef5e653478ff479ba0de3bd979d8e6a
+      m_TableEntryReference:
+        m_KeyId: 93832063591899136
+        m_Key:
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+    FontSize: 13
+    FontSizeOverrides: []
+    Bold: 0
+    AllCaps: 0
+    CharacterSpacing: 0.28
+    CharacterSpacingOverrides: []
+    LineSpaceBeforeText: 32
+    LineHeight: 119
+  _images:
+  - Name: IFRC
+    Sprite: {fileID: 21300000, guid: 8de5a2d905416374d94a70280f0c24bd, type: 2}
+    ApplyColor: 0
+    Scale: 0.31
+    TopPadding: 13
+    BottomPadding: 9
+  - Name: divider-simple
+    Sprite: {fileID: 21300000, guid: ce3f60fedb90c9b498da2964bed6d9c6, type: 2}
+    ApplyColor: 1
+    Scale: 0.46
+    TopPadding: 32
+    BottomPadding: 0
+  - Name: divider-fancy
+    Sprite: {fileID: 21300000, guid: c50ac356a977e544e8b002fd42aed5f8, type: 2}
+    ApplyColor: 1
+    Scale: 0.45
+    TopPadding: 30
+    BottomPadding: 4
+  - Name: MV3-ending
+    Sprite: {fileID: 21300000, guid: 12b94acbb1b7f6c40907d5c864f1fec2, type: 2}
+    ApplyColor: 1
+    Scale: 0.15
+    TopPadding: 35
+    BottomPadding: 11
+  - Name: MV3-logo
+    Sprite: {fileID: 21300000, guid: 56883df936afd1e44934e247ff73ed95, type: 2}
+    ApplyColor: 1
+    Scale: 0.15
+    TopPadding: 35
+    BottomPadding: 11
+  ShowDebugLayout: 0
+  DebugImagePaddingColor: {r: 1, g: 1, b: 1, a: 0.53333336}
+  DebugImageColor: {r: 1, g: 0, b: 0, a: 1}

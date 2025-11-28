@@ -1,0 +1,38 @@
+WaitForTitleScreen
+
+Nav: 7.51, 125.28, 7.50
+
+# Decend to the cube
+WaitSeconds: 30
+
+Mover: rotate: side 1 handle, -360.00
+
+Nav: 2.51, 5.79, 0.50
+Mover: rotate: side 1 handle, -180.00
+Nav: -2.87, 2.53, 2.51
+WaitSeconds: 4
+Mover: rotate: side 2 handle, -180.00
+Nav: 0.51, -0.47, -2.74
+Mover: rotate: side 2 handle, -360.00
+Nav: -2.11, 3.54, 3.51
+WaitSeconds: 2
+Mover: rotate: side 2 handle, 0.00
+Nav: -2.74, 3.53, 0.51
+Mover: rotate: side 2 handle, 180.00
+Nav: -5.87, 3.53, 1.51
+WaitSeconds: 13
+Mover: Rotator_Cube, -720.00
+
+TimeScale: 1
+WaitSeconds: 2
+Nav: -1.49, 9.03, -2.49
+TimeScale: default
+
+# Dialogue with NPC
+WaitSeconds: 7
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 4

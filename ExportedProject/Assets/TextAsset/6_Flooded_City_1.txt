@@ -1,0 +1,20 @@
+WaitForTitleScreen
+
+WaitSeconds: 4
+Nav: -3.68, 4.67, -2.33
+
+WaitSeconds: 8
+Nav: 1.81, 4.52, 1.99
+Mover: Spline 3 Mover, 12.00
+Nav: 14.42, 4.88, 7.65
+
+# Spline mover leaves
+WaitSeconds: 6
+Mover: Rotator 1, -45.00
+Nav: 11.36, 8.36, 16.98
+Mover: Rotator 1, 45.00
+Nav: 10.34, 3.38, 18.11
+Mover: Rotator 1, -45.00
+Nav: 13.94, 2.72, 9.33
+Mover: Rotator 1, 0.00
+Nav: 15.28, 0.81, 15.14

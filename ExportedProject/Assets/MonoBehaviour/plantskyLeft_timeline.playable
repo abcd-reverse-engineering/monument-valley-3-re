@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 337831424, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: plantskyLeft_timeline
+  m_EditorClassIdentifier:
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 114065776208481293}
+  - {fileID: 114620426504402815}
+  - {fileID: 114192099366066834}
+  - {fileID: 114947828414014854}
+  m_FixedDuration: 6
+  m_EditorSettings:
+    m_Framerate: 60
+    m_ScenePreview: 1
+  m_DurationMode: 1
+  m_MarkerTrack: {fileID: 0}
+--- !u!114 &114065776208481293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Visuals
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: f096e6ec8d70b4b42bc38090f4bdece6, type: 2}
+  - {fileID: 11400000, guid: 19c5657da49fea34ba113d4664216d6d, type: 2}
+  - {fileID: 11400000, guid: 98c60b3fd2a24844994a015e04045749, type: 2}
+  - {fileID: 11400000, guid: 97405db2b2e6e734a98521badb611ff4, type: 2}
+  - {fileID: 11400000, guid: fd400f6b90142114791ee48427ecea08, type: 2}
+  - {fileID: 11400000, guid: b73d373874a6e5b49987d217d786cfe0, type: 2}
+  - {fileID: 11400000, guid: 1cf9816fe0c7a164ebb22870319551ce, type: 2}
+  - {fileID: 11400000, guid: 01e1e461b9ee00d43a7732162e91252a, type: 2}
+  - {fileID: 11400000, guid: 5c6aca9197add1d45b671f2cec52fa5b, type: 2}
+  - {fileID: 11400000, guid: cdc7cf8a2913c044cae00a7d250188bc, type: 2}
+  - {fileID: 11400000, guid: 5826a2412135dc54d972c5d426cbf945, type: 2}
+  - {fileID: 11400000, guid: a1eee2fc11270604889cf0a6f96739ae, type: 2}
+  - {fileID: 11400000, guid: 3c3e751d926dfc1429e5fbf4c040ea89, type: 2}
+  - {fileID: 11400000, guid: c231b13cd61e9434d9d109ae47b78d4f, type: 2}
+  - {fileID: 11400000, guid: 4856a7a102f98d849871241345806a66, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114620426504402815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Middle Plant
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114192099366066834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Left Plant
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 97739e554abb4db4188f6b75df062b74, type: 2}
+  - {fileID: 11400000, guid: a5094ac10a6ae5d4b8895bc5fda64667, type: 2}
+  - {fileID: 11400000, guid: 948a340e5a0f5614d86d2040a76e2536, type: 2}
+  - {fileID: 11400000, guid: 634320d407656814fa218e1c01629605, type: 2}
+  - {fileID: 11400000, guid: bc51653a37a8d2a4e8ca344413250eba, type: 2}
+  - {fileID: 11400000, guid: 22ed33bd0733c1a47bfd06614a58b9b0, type: 2}
+  - {fileID: 11400000, guid: 4f0ece84f5eebab4c8b7535047ee49fe, type: 2}
+  - {fileID: 11400000, guid: 4851367f48d68bc4c930dd81810808fc, type: 2}
+  - {fileID: 11400000, guid: 34cc75bb8e22a944db3dc6e1a9319a62, type: 2}
+  - {fileID: 11400000, guid: 2effda5b3ea868240b747f881a20cf2f, type: 2}
+  - {fileID: 11400000, guid: 20f46f0ea3d9f454dbaa8a01dd1b65dc, type: 2}
+  - {fileID: 11400000, guid: 364533901af768c4aa3322fa0016a49a, type: 2}
+  - {fileID: 11400000, guid: 0a6959f0f7e4205479e1e1f20b9b3c55, type: 2}
+  - {fileID: 11400000, guid: c44e3381c4dceb541bc202672887d1a1, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114947828414014854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Thorns
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 897763b941603ee4dbcc1cc148d99f58, type: 2}
+  - {fileID: 11400000, guid: 2df27212683302940af36d547f8c19b3, type: 2}
+  - {fileID: 11400000, guid: e9e1bc3855217bc4bbff07cf4e010eed, type: 2}
+  - {fileID: 11400000, guid: 30e5cf931cca7d34aa75fa5196102dd7, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []

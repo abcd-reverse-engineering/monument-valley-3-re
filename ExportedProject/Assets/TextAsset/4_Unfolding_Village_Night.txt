@@ -1,0 +1,22 @@
+WaitForTitleScreen
+
+WaitSeconds: 20
+
+# Something about this interaction isn't time scaling properly
+TimeScale: 1
+Tap: LighthouseTapTrigger
+WaitSeconds: 15
+TimeScale: default
+
+Nav: 1.00, -4.75, 18.50
+
+# NPC dialogue
+WaitSeconds: 8
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 10
+
+Nav: 5.00, -11.75, 28.50

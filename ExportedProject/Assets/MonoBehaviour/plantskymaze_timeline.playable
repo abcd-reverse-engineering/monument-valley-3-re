@@ -1,0 +1,605 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 337831424, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: plantskymaze_timeline
+  m_EditorClassIdentifier:
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 114694704916372368}
+  - {fileID: 114109945975130445}
+  - {fileID: 114206932019825043}
+  - {fileID: 114935484400818537}
+  - {fileID: 114558691381797196}
+  - {fileID: 114129858038374862}
+  - {fileID: 114778210131080651}
+  - {fileID: 114119806883096639}
+  - {fileID: 114512108862378710}
+  - {fileID: 114479304161676836}
+  - {fileID: 114737038567318764}
+  - {fileID: 114757975884766766}
+  - {fileID: 114199820279099490}
+  m_FixedDuration: 10
+  m_EditorSettings:
+    m_Framerate: 60
+    m_ScenePreview: 1
+  m_DurationMode: 1
+  m_MarkerTrack: {fileID: 0}
+--- !u!114 &114694704916372368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: stems
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: e4d4eb556c0b26e42b479a233860395c, type: 2}
+  - {fileID: 11400000, guid: 1297627a5929de34bb069154df68422e, type: 2}
+  - {fileID: 11400000, guid: ca51622e7f6be3046b7573c377f5c838, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114109945975130445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: mp_leaf1
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: af093abefdbebe941b3f0513101299f9, type: 2}
+  - {fileID: 11400000, guid: 2d3f7eb050031c048947dda456dbdcf8, type: 2}
+  - {fileID: 11400000, guid: a24e9b229f61b3948beb8a6fc9d94f33, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114206932019825043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: mp_bud
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: b419e1e2dbd712b43b7a277cf7f73fcb, type: 2}
+  - {fileID: 11400000, guid: 3041421657848d241ac0edf59eeb81cd, type: 2}
+  - {fileID: 11400000, guid: 7733a6fe18cdd8845bf459a43e062ec6, type: 2}
+  - {fileID: 11400000, guid: 33380239fe0629a4f93f02ae14574470, type: 2}
+  - {fileID: 11400000, guid: e4c6f95aa7433eb489745cbb922dbca2, type: 2}
+  - {fileID: 11400000, guid: 68e22aeff9dca294e9a08316ce7d9d6c, type: 2}
+  - {fileID: 11400000, guid: 22cb6d5930078fb41983d48bae2863b9, type: 2}
+  - {fileID: 11400000, guid: 5aceba92970f9bd4c9d16a34dd01fd9b, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114935484400818537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: mp_bud1
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 8178598aaf1e50e4297f333ba1533c6b, type: 2}
+  - {fileID: 11400000, guid: c23a64b3535d76f4fab644176d4e0bf7, type: 2}
+  - {fileID: 11400000, guid: 576f3e0b4ccf6e649902e9e63f91185e, type: 2}
+  - {fileID: 11400000, guid: a276640b1be177f46aac0cb1636a23cb, type: 2}
+  - {fileID: 11400000, guid: 2b067bc9fef47234c806db68d4c98c4e, type: 2}
+  - {fileID: 11400000, guid: 04024c023bcb4f147ae51dc0b55418f9, type: 2}
+  - {fileID: 11400000, guid: f1178758770913841ab2c91cca7a0450, type: 2}
+  - {fileID: 11400000, guid: 67cc8f948a9873740987cb7133145f15, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114558691381797196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: mp_bud1 (1)
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: d6e242517c284484784716b545c85bc5, type: 2}
+  - {fileID: 11400000, guid: 5e653865829dfdc4a9beab31042e5036, type: 2}
+  - {fileID: 11400000, guid: ae1030519105d894e8d566ee40c32cae, type: 2}
+  - {fileID: 11400000, guid: 6fd4032d1f88fad41a550631274fb1e1, type: 2}
+  - {fileID: 11400000, guid: 626c59bc04f194644b521455e33066f1, type: 2}
+  - {fileID: 11400000, guid: e696d36a5178d28448946f06bb987a2d, type: 2}
+  - {fileID: 11400000, guid: 38081d1ed8c9fdb4b8ea66c6120dbfba, type: 2}
+  - {fileID: 11400000, guid: 5dc7290a29b2a9b4ca9f317b4622de3c, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114129858038374862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: mp_petal
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 86bf1ba50920dc642b2a4f924be39cde, type: 2}
+  - {fileID: 11400000, guid: 346f20e34e5831545b08ef02a81a69dd, type: 2}
+  - {fileID: 11400000, guid: f3e04bfdfa6f581408b1e4883cc55fd0, type: 2}
+  - {fileID: 11400000, guid: 4af0a3cbe518bfc44ae24548f0c76ede, type: 2}
+  - {fileID: 11400000, guid: b65a6f68b2462d84fa7ae1eb4bbc1e54, type: 2}
+  - {fileID: 11400000, guid: ca7c8b0320f6f554995ac31f4c5790c8, type: 2}
+  - {fileID: 11400000, guid: d7c437af91a5893478cdb0ef650535fa, type: 2}
+  - {fileID: 11400000, guid: baa5424338e29ba4fb8c962274476ade, type: 2}
+  - {fileID: 11400000, guid: 57733d565d71b524fa6f7d9abecc6703, type: 2}
+  - {fileID: 11400000, guid: 4bf9e7339878d9949aa60fcd088cf764, type: 2}
+  - {fileID: 11400000, guid: a45fcd29ba9c646448c96c7a6f43df80, type: 2}
+  - {fileID: 11400000, guid: 876f926b45569ce459ec44276b40bdc4, type: 2}
+  - {fileID: 11400000, guid: 0ff6686083c6e774d8bf658b1a87c2f9, type: 2}
+  - {fileID: 11400000, guid: a7b697168cd15ab4db924cdda0c5233f, type: 2}
+  - {fileID: 11400000, guid: 696315ec2213d4b44bcaa405cb31585e, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114778210131080651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: mp_petal (1)
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 2d50d71cb2a1d604c92ea8246ce408aa, type: 2}
+  - {fileID: 11400000, guid: 2e6d5bbaa23954344bebc63b64289104, type: 2}
+  - {fileID: 11400000, guid: 9d621c04d92ad9943b5840ac19004b80, type: 2}
+  - {fileID: 11400000, guid: 48e93bc809fc01e4a9549d42253bc1a3, type: 2}
+  - {fileID: 11400000, guid: 193126837519c834282d6e5e20829d15, type: 2}
+  - {fileID: 11400000, guid: 185f10be3c5de7548be4a07e5f45c63b, type: 2}
+  - {fileID: 11400000, guid: 97a21b917205d5c4c82b56929a079c04, type: 2}
+  - {fileID: 11400000, guid: b6daa84dd9b127340b150227950e53e7, type: 2}
+  - {fileID: 11400000, guid: d50a912a39617a843aaf97e88224325d, type: 2}
+  - {fileID: 11400000, guid: 86f48cf2ea1e72349b506972b91527c6, type: 2}
+  - {fileID: 11400000, guid: 302e8955f841a5340b0652093ed797e5, type: 2}
+  - {fileID: 11400000, guid: 48ce3a552f0636e48993b41bee3a03b3, type: 2}
+  - {fileID: 11400000, guid: 6ba0eaccb1796674ca5caf26ebe95c64, type: 2}
+  - {fileID: 11400000, guid: d60722a4831173144af7aa5c897674dc, type: 2}
+  - {fileID: 11400000, guid: bd3fecd811f2c3a45af1cde187719a98, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114119806883096639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: mpm
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: e18bd3528a662064fbcf4248fa4a61cc, type: 2}
+  - {fileID: 11400000, guid: 16b638cde3af3234ca291b531990703c, type: 2}
+  - {fileID: 11400000, guid: fe758fab3a096f24996a1f3c3023d3f0, type: 2}
+  - {fileID: 11400000, guid: b0fc090083c263d488de52e9a07d02a0, type: 2}
+  - {fileID: 11400000, guid: 78f70e100c85caf4db86b63433934c99, type: 2}
+  - {fileID: 11400000, guid: 701855d2b5fa64541b651864f140efed, type: 2}
+  - {fileID: 11400000, guid: 7004995d224f16a4fb7d7e1e7cd24b09, type: 2}
+  - {fileID: 11400000, guid: bf20943aceca80048b6dbdb723a2beb5, type: 2}
+  - {fileID: 11400000, guid: d96ce90d2d551684db2996b2ec4f521f, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114512108862378710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: movers
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 963da32706e0e494486c69ec269d1856, type: 2}
+  - {fileID: 11400000, guid: 0351e5f9180daab4ea900106ff06f5eb, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &114479304161676836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1467732076, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Animation Track
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+  m_InfiniteClipPreExtrapolation: 1
+  m_InfiniteClipPostExtrapolation: 1
+  m_InfiniteClipOffsetPosition: {x: 41.3, y: -49.1, z: 43.9}
+  m_InfiniteClipOffsetEulerAngles: {x: 1.0000027, y: 1.6677805E-09, z: 1.0000026}
+  m_InfiniteClipTimeOffset: 0
+  m_InfiniteClipRemoveOffset: 0
+  m_InfiniteClipApplyFootIK: 1
+  mInfiniteClipLoop: 0
+  m_MatchTargetFields: 63
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
+  m_AvatarMask: {fileID: 0}
+  m_ApplyAvatarMask: 1
+  m_TrackOffset: 0
+  m_InfiniteClip: {fileID: 7400000, guid: c17c4cb9307b3e342a66c89ea1bd2cac, type: 2}
+  m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ApplyOffsets: 0
+--- !u!114 &114737038567318764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1467732076, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Animation Track (1)
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+  m_InfiniteClipPreExtrapolation: 1
+  m_InfiniteClipPostExtrapolation: 1
+  m_InfiniteClipOffsetPosition: {x: -14.6, y: 6.8, z: -22.4}
+  m_InfiniteClipOffsetEulerAngles: {x: -0, y: 0, z: 0}
+  m_InfiniteClipTimeOffset: 0
+  m_InfiniteClipRemoveOffset: 0
+  m_InfiniteClipApplyFootIK: 1
+  mInfiniteClipLoop: 0
+  m_MatchTargetFields: 63
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
+  m_AvatarMask: {fileID: 0}
+  m_ApplyAvatarMask: 1
+  m_TrackOffset: 0
+  m_InfiniteClip: {fileID: 7400000, guid: 91b2661cc56315f49852dfa9261551c2, type: 2}
+  m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ApplyOffsets: 0
+--- !u!114 &114757975884766766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 46519060, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Activation Track
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 7
+    m_ClipIn: 0
+    m_Asset: {fileID: 114427918436918447}
+    m_Duration: 11.583333333333332
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114757975884766766}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Active
+  m_Markers:
+    m_Objects: []
+  m_PostPlaybackState: 3
+--- !u!114 &114427918436918447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 442072544, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: ActivationPlayableAsset
+  m_EditorClassIdentifier:
+--- !u!114 &114199820279099490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 46519060, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Activation Track (1)
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0.75
+    m_ClipIn: 0
+    m_Asset: {fileID: 114358959309980700}
+    m_Duration: 12.516666666666667
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114199820279099490}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Active
+  m_Markers:
+    m_Objects: []
+  m_PostPlaybackState: 3
+--- !u!114 &114358959309980700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 442072544, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: ActivationPlayableAsset
+  m_EditorClassIdentifier:

@@ -1,0 +1,38 @@
+WaitForTitleScreen
+
+WaitSeconds: 10
+Nav: 1.00, -10.50, -4.00
+Nav: 4.00, -10.50, -1.00
+Nav: 6.00, -10.50, 3.00
+Nav: 6.00, -10.50, 8.00
+Nav: 8.00, -10.50, 10.00
+Nav: 10.00, -10.50, 12.00
+Nav: 12.00, -10.57, 12.00
+
+# Main level reveal
+WaitSeconds: 10
+Mover: BottomRotator, 180.00
+Nav: 5.00, -7.50, 6.00
+Nav: 5.00, -5.50, 7.00
+Mover: BottomRotator, 0.00
+Nav: 9.39, 5.60, 11.39
+Mover: BottomRotator, 180.00
+Nav: 9.97, 6.89, 9.98
+
+# Path to Architect reveal
+TimeScale: 1
+WaitSeconds: 9
+Nav: 14.06, 2.93, 8.06
+TimeScale: default
+
+# Dialogue with Architect ghost
+WaitSeconds: 13
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 5
+
+# Complete screen
+Button: ContinueButton

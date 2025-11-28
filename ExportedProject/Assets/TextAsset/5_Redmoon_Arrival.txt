@@ -1,0 +1,23 @@
+WaitForTitleScreen
+
+WaitSeconds: 8
+Nav: -3.52, -2.94, -3.00
+Mover: A5 Start, -3.00
+Nav: -3.52, -2.94, -1.00
+Mover: A5 Start, 0.00
+Nav: 2.49, -1.94, 4.00
+Mover: A5 Start, -3.00
+Nav: 4.48, -1.94, 4.00
+
+# Path Collapses
+WaitSeconds: 5
+Mover: A5 Start, -3.00
+Nav: 5.98, -4.44, 4.01
+Mover: A5 Start, 0.00
+Nav: 4.48, -5.94, 4.01
+Mover: A5 Start, -3.00
+Nav: -3.52, -3.94, -8.00
+Mover: A5 Start, 0.00
+Nav: -3.52, -3.94, -9.00
+Mover: A5 Start, -3.00
+Nav: 10.48, -0.94, 2.06

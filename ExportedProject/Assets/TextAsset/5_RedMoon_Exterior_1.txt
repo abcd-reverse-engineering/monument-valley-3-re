@@ -1,0 +1,53 @@
+WaitForTitleScreen
+
+Nav: 0.00, -8.50, -3.00
+Mover: Rotator 1, 90.00
+Nav: 4.00, -6.50, 4.00
+Mover: Rotator 1, 180.00
+Nav: 7.00, -7.38, 1.00
+WaitSeconds: 2
+Nav: 4.00, -6.50, 4.00
+Mover: Rotator 1, 270.00
+Nav: 11.00, -6.50, 11.00
+Mover: Rotator 1, 360.00
+Nav: 8.00, -6.50, 3.00
+Mover: Rotator 1, 450.00
+Nav: 10.00, -8.50, 14.00
+
+# First camera pan
+WaitSeconds: 4
+
+Nav: 16.00, 5.50, 21.00
+Nav: 23.00, 4.49, 23.00
+
+# Path falls down
+WaitSeconds: 2
+
+# Enter door
+Nav: 27.00, 2.50, 24.00
+
+# Second camera pan
+WaitSeconds: 3
+
+Mover: Rotator 2, 90.00
+Nav: 37.00, 8.50, 30.00
+Nav: 35.00, 6.50, 29.00
+Mover: Rotator 2, 180.00
+Nav: 27.00, 7.62, 34.00
+# Dragger reveal
+WaitSeconds: 2
+Mover: Dragger 1, -4.00
+
+# Architect rejoins player
+WaitSeconds: 1
+Mover: Dragger 1, 2.00
+WaitSeconds: 2
+Nav: 33.00, 8.63, 39.00
+
+# Third camera pan
+WaitSeconds: 9
+
+Mover: Rotator 2, 90.00
+Nav: 46.00, 10.50, 40.00
+Mover: Rotator 2, 180.00
+Nav: 49.00, 15.50, 47.50

@@ -1,0 +1,29 @@
+WaitForTitleScreen
+
+Nav: 39.00, 31.50, 36.00
+WaitSeconds: 8
+Nav: 44.00, 34.50, 40.00
+WaitSeconds: 5
+Nav: 41.00, 42.50, 40.00
+Mover: Rotator 2, 180.00
+Nav: 47.00, 42.50, 40.00
+Nav: 43.00, 49.50, 37.00
+Mover: Rotator 2, 0.00
+Nav: 43.00, 48.50, 42.00
+Mover: Rotator 2, 180.00
+Nav: 43.00, 53.51, 45.02
+Mover: Rotator 2, 0.00
+
+# Automatic walk to top of the tower
+Nav: 47.00, 53.50, 45.00
+
+# A scripted nav takes over here, meaning regular nav never reaches its target
+NavUnchecked: 48.00, 53.50, 45.00
+WaitSeconds: 20
+Nav: 57.00, 60.46, 55.00
+
+WaitSeconds: 40
+Button: ContinueButton
+TimeScale: 1
+WaitSeconds: 17
+TimeScale: default

@@ -1,0 +1,64 @@
+WaitForTitleScreen
+
+Mover: Mover_Dragger 1, 0.00
+Nav: -7.50, 8.00, -3.00
+Mover: Mover_Dragger 1, 5.00
+Nav: 2.50, 4.13, -1.00
+WaitSeconds: 2
+Mover: Mover_Rotator 1, -180.00
+Nav: -2.50, 7.99, -6.90
+Mover: Mover_Dragger 1, 0.00
+Nav: 0.00, -0.50, -5.00
+Mover: Mover_Rotator 1, 0.00
+
+# Noor is moved instantly off the button
+NavUnchecked: -5.13, -1.50, 2.00
+WaitSeconds: 12
+Mover: Mover_Rotator 2, 180.00
+Nav: -0.13, 5.50, -5.00
+
+# Button 1/3
+WaitSeconds: 5
+Nav: 1.77, 1.23, 0.50
+Mover: Mover_Dragger 1, 5.00
+Nav: -5.50, 0.13, -5.00
+
+# Button 2/3
+WaitSeconds: 5
+Mover: Mover_Rotator 2, 0.00
+Nav: 0.00, -2.36, -1.53
+Mover: Mover_Dragger 1, 0.00
+Nav: -4.50, 4.50, 1.37
+
+# Button 3/3
+# Door to second part opens
+WaitSeconds: 5
+Nav: 1.00, 0.23, 3.27
+Mover: Mover_Dragger 1, 5.00
+Nav: -4.50, -1.00, -1.00
+Mover: Mover_Rotator 2, 180.00
+Nav: 2.50, 4.00, 3.00
+
+# Transition to second part
+WaitSeconds: 12
+
+Mover: Mover_MobiusRotator, -90.00
+WaitSeconds: 5
+Nav: -2.83, -5.30, -3.00
+Mover: Mover_MobiusRotator, 0.00
+Nav: 4.86, -6.90, 3.42
+
+Mover: Mover_MobiusRotator, -90.00
+Nav: -8.50, -6.00, -3.62
+Nav: -3.54, -5.98, -3.50
+Mover: Mover_MobiusRotator, 0.00
+Nav: 2.54, -5.98, 1.50
+Mover: Mover_MobiusRotator, 90.00
+Nav: 8.50, -8.38, 3.00
+Nav: 2.54, -3.50, -4.98
+Mover: Mover_MobiusRotator, 0.00
+Nav: 2.60, -5.48, 2.00
+Mover: Mover_MobiusRotator, -90.00
+Nav: 17.50, -7.50, 13.00
+# Long fade out
+WaitSeconds: 30

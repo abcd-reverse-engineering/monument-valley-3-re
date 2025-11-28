@@ -1,0 +1,110 @@
+{
+ "PluginInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "PluginLibs": [
+   {
+    "LibName": "Wwise Silence",
+    "LibId": "6619138",
+    "Type": "Source",
+    "DLL": "AkSilenceGenerator",
+    "StaticLib": "AkSilenceSource"
+   },
+   {
+    "LibName": "Wwise Parametric EQ",
+    "LibId": "6881283",
+    "Type": "Effect",
+    "DLL": "AkParametricEQ",
+    "StaticLib": "AkParametricEQFX"
+   },
+   {
+    "LibName": "Wwise Delay",
+    "LibId": "6946819",
+    "Type": "Effect",
+    "DLL": "AkDelay",
+    "StaticLib": "AkDelayFX"
+   },
+   {
+    "LibName": "Wwise Compressor",
+    "LibId": "7077891",
+    "Type": "Effect",
+    "DLL": "AkCompressor",
+    "StaticLib": "AkCompressorFX"
+   },
+   {
+    "LibName": "Wwise Peak Limiter",
+    "LibId": "7208963",
+    "Type": "Effect",
+    "DLL": "AkPeakLimiter",
+    "StaticLib": "AkPeakLimiterFX"
+   },
+   {
+    "LibName": "Wwise Flanger",
+    "LibId": "8192003",
+    "Type": "Effect",
+    "DLL": "AkFlanger",
+    "StaticLib": "AkFlangerFX"
+   },
+   {
+    "LibName": "Wwise Guitar Distortion",
+    "LibId": "8257539",
+    "Type": "Effect",
+    "DLL": "AkGuitarDistortion",
+    "StaticLib": "AkGuitarDistortionFX"
+   },
+   {
+    "LibName": "Wwise Convolution Reverb",
+    "LibId": "8323075",
+    "Type": "Effect",
+    "DLL": "AkConvolutionReverb",
+    "StaticLib": "AkConvolutionReverbFX"
+   },
+   {
+    "LibName": "Wwise Time Stretch",
+    "LibId": "8519683",
+    "Type": "Effect",
+    "DLL": "AkTimeStretch",
+    "StaticLib": "AkTimeStretchFX"
+   },
+   {
+    "LibName": "Wwise Tremolo",
+    "LibId": "8585219",
+    "Type": "Effect",
+    "DLL": "AkTremolo",
+    "StaticLib": "AkTremoloFX"
+   },
+   {
+    "LibName": "Wwise Stereo Delay",
+    "LibId": "8847363",
+    "Type": "Effect",
+    "DLL": "AkStereoDelay",
+    "StaticLib": "AkStereoDelayFX"
+   },
+   {
+    "LibName": "System",
+    "LibId": "11403271",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "No Output",
+    "LibId": "11862023",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "SoundSeed Grain",
+    "LibId": "11993090",
+    "Type": "Source",
+    "DLL": "AkSoundSeedGrain",
+    "StaticLib": "AkSoundSeedGrainSource"
+   },
+   {
+    "LibName": "Mastering Suite",
+    "LibId": "12189699",
+    "Type": "Effect",
+    "DLL": "MasteringSuite",
+    "StaticLib": "MasteringSuiteFX"
+   }
+  ],
+  "FileHash": "{EF6F55D2-2655-8B0F-819C-DEC68CEE6557}"
+ }
+}

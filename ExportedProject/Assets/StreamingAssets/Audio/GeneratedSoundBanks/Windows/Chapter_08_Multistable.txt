@@ -1,0 +1,87 @@
+Event	ID	Name			Wwise Object Path	Notes
+	45684898	mus_multistable_blues_blend_stop			\Chapter_Events\Chapter_08_Multistable\mus_multistable_blues_blend_stop	
+	229748908	mus_multistable_intro_drone_stop			\Chapter_Events\Chapter_08_Multistable\mus_multistable_intro_drone_stop	
+	284341632	lvl_multistable_rotator_appears_play			\Chapter_Events\Chapter_08_Multistable\lvl_multistable_rotator_appears_play	
+	334633786	mus_multistable_title_card_stop			\Chapter_Events\Chapter_08_Multistable\mus_multistable_title_card_stop	
+	624176038	lvl_multistable_dragger_lower_play			\Chapter_Events\Chapter_08_Multistable\lvl_multistable_dragger_lower_play	
+	1037099227	lvl_multistable_enter_day_play			\Chapter_Events\Chapter_08_Multistable\lvl_multistable_enter_day_play	
+	1360295018	mus_multistable_transition_play			\Chapter_Events\Chapter_08_Multistable\mus_multistable_transition_play	
+	1430712263	lvl_multistable_rotator_complete_play			\Chapter_Events\Chapter_08_Multistable\lvl_multistable_rotator_complete_play	
+	1702425888	mus_multistable_blues_blend_play			\Chapter_Events\Chapter_08_Multistable\mus_multistable_blues_blend_play	
+	1869600856	cubefootsteps_setstate_ducked			\Chapter_Events\Chapter_08_Multistable\cubefootsteps_setstate_ducked	
+	2019037494	amb_multistable_merge_play			\Chapter_Events\Chapter_08_Multistable\amb_multistable_merge_play	
+	2089597545	cubefootsteps_setstate_normal			\Chapter_Events\Chapter_08_Multistable\cubefootsteps_setstate_normal	
+	2226132302	lvl_multistable_dragger_rise_play			\Chapter_Events\Chapter_08_Multistable\lvl_multistable_dragger_rise_play	
+	2251930824	mus_multistable_title_card_play			\Chapter_Events\Chapter_08_Multistable\mus_multistable_title_card_play	
+	2428340723	amb_multistable_architect_stop			\Chapter_Events\Chapter_08_Multistable\amb_multistable_architect_stop	
+	2723696382	amb_multistable_intro_stop			\Chapter_Events\Chapter_08_Multistable\amb_multistable_intro_stop	
+	2749574856	amb_multistable_merge_stop			\Chapter_Events\Chapter_08_Multistable\amb_multistable_merge_stop	
+	2763391481	mus_multistable_mentors_ghost_stop			\Chapter_Events\Chapter_08_Multistable\mus_multistable_mentors_ghost_stop	
+	2784447878	amb_setstate_night			\Chapter_Events\Chapter_08_Multistable\amb_setstate_night	
+	2854735410	mus_multistable_intro_drone_play			\Chapter_Events\Chapter_08_Multistable\mus_multistable_intro_drone_play	
+	2953022325	lvl_multistable_transition_architect_play			\Chapter_Events\Chapter_08_Multistable\lvl_multistable_transition_architect_play	
+	3044686335	int_multistable_rotator_nubs_play			\Chapter_Events\Chapter_08_Multistable\int_multistable_rotator_nubs_play	
+	3063283607	lvl_multistable_enter_night_play			\Chapter_Events\Chapter_08_Multistable\lvl_multistable_enter_night_play	
+	3083525454	lvl_multistable_architect_appears_play			\Chapter_Events\Chapter_08_Multistable\lvl_multistable_architect_appears_play	
+	3595606496	lvl_multistable_portal_play			\Chapter_Events\Chapter_08_Multistable\lvl_multistable_portal_play	
+	3633269267	mus_multistable_mentors_ghost_play			\Chapter_Events\Chapter_08_Multistable\mus_multistable_mentors_ghost_play	
+	3694904873	mus_multistable_platform_invert_play			\Chapter_Events\Chapter_08_Multistable\mus_multistable_platform_invert_play	
+	3728491106	amb_setstate_day			\Chapter_Events\Chapter_08_Multistable\amb_setstate_day	
+	4246113028	amb_multistable_intro_play			\Chapter_Events\Chapter_08_Multistable\amb_multistable_intro_play	
+	4261344277	amb_multistable_architect_play			\Chapter_Events\Chapter_08_Multistable\amb_multistable_architect_play	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	646794593	multistable_day_night			\Chapters\multistable\multistable_day_night	
+	1540417782	chapter_end_duck			\Game_Flow\chapter_end_duck	
+
+State	ID	Name	State Group			Notes
+	311764537	day	multistable_day_night			
+	748895195	None	multistable_day_night			
+	1011622525	night	multistable_day_night			
+	348963587	revert	chapter_end_duck			
+	748895195	None	chapter_end_duck			
+	2617048678	duck	chapter_end_duck			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1844323695	mover_position_multistable_blues			\Default Work Unit\Object Specific\mover_position_multistable_blues	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	236773474	Modulator Envelope (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	188890125	Compressor (Custom)	Wwise Compressor			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	270682175	Soundseed Grain	SoundSeed Grain		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Ambient + Music\mus_multistable_blues_blend\mus_multistable_blues_granular\Soundseed Grain	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	42432669	lvl_multistable_transition_architect	Y:\Work\MV3\mv3\mv3-wwise\.cache\6B\{6B17807B-D618-CD07-CEDB-2F011003FDF5}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Level Events\lvl_multistable_transition_architect		102463
+	149007552	lvl_multistable_dragger_rise_01	Y:\Work\MV3\mv3\mv3-wwise\.cache\1B\{1BE51566-C3B5-622E-B7CD-1421CEEC57CA}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Level Events\lvl_multistable_dragger_rise\lvl_multistable_dragger_rise_01		31558
+	158931638	amb_multistable_intro_day	Y:\Work\MV3\mv3\mv3-wwise\.cache\CA\{CA34BB1C-F62A-B01F-7BB5-B9AD2F3F9D33}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Ambient + Music\amb_multistable_intro\amb_multistable_intro_day		274385
+	225632885	lvl_multistable_portal_01	Y:\Work\MV3\mv3\mv3-wwise\.cache\27\{279C7B9F-A9A8-A668-C21C-4631FF467A99}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Level Events\lvl_multistable_portal\lvl_multistable_portal_01		35576
+	243671253	lvl_multistable_portal_02	Y:\Work\MV3\mv3\mv3-wwise\.cache\AD\{AD5B178A-B3D6-E11B-4CA3-7A7A2ED5CCF2}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Level Events\lvl_multistable_portal\lvl_multistable_portal_02		35703
+	246220899	lvl_multistable_dragger_rise_02	Y:\Work\MV3\mv3\mv3-wwise\.cache\7E\{7E6A808F-33DE-56A0-AF59-90F4690A873F}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Level Events\lvl_multistable_dragger_rise\lvl_multistable_dragger_rise_02		27972
+	368894806	lvl_multistable_dragger_lower_02	Y:\Work\MV3\mv3\mv3-wwise\.cache\E2\{E2A1D49F-AA3C-E2BA-25B1-B29596DDAB88}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Level Events\lvl_multistable_dragger_lower\lvl_multistable_dragger_lower_02		24264
+	379665567	lvl_multistable_enter_day_01	Y:\Work\MV3\mv3\mv3-wwise\.cache\13\{133BA6D4-C420-89A8-FCC7-AA91DE22AC8C}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Level Events\lvl_multistable_enter_day\lvl_multistable_enter_day_01		37308
+	407408213	mus_multistable_transition	Y:\Work\MV3\mv3\mv3-wwise\.cache\A7\{A7C11A3C-F57E-6A41-06E7-B65F3289E37E}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Ambient + Music\mus_multistable_transition		147254
+	422968030	mus_multistable_mentors_ghost	Y:\Work\MV3\mv3\mv3-wwise\.cache\47\{47335000-1A86-1B82-A390-E074716F4229}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Ambient + Music\mus_multistable_mentors_ghost		1195323
+	456191709	amb_multistable_architect	Y:\Work\MV3\mv3\mv3-wwise\.cache\C9\{C9F2CAC1-96C3-76D3-13F2-30AE7A5CEAF1}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Ambient + Music\amb_multistable_architect		145164
+	473704762	Soundseed Grain	Y:\Work\MV3\mv3\mv3-wwise\.cache\CC\{CC5F1E1E-9B77-9779-6CB1-AF309EC473F4}.wem	SoundSeed Grain (Custom)	\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Ambient + Music\mus_multistable_blues_blend\mus_multistable_blues_granular\Soundseed Grain		858294
+	527170960	mus_multistable_title_card	Y:\Work\MV3\mv3\mv3-wwise\.cache\AA\{AA21B306-282E-642E-DEF3-310AD69BB6C4}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Ambient + Music\mus_multistable_title_card		242904
+	556961817	lvl_multistable_enter_day_02	Y:\Work\MV3\mv3\mv3-wwise\.cache\2A\{2AA25C5B-4037-B058-8B39-BC27544B5163}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Level Events\lvl_multistable_enter_day\lvl_multistable_enter_day_02		35506
+	586735251	lvl_multistable_rotator_complete	Y:\Work\MV3\mv3\mv3-wwise\.cache\D8\{D849E5AB-9D9A-9F2E-58F6-76BFE56ABD9A}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Level Events\lvl_multistable_rotator_complete		125306
+	593115010	mus_multistable_intro_drone	Y:\Work\MV3\mv3\mv3-wwise\.cache\77\{77370033-4302-A83C-73B3-FF19FCD59F87}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Ambient + Music\amb_multistable_intro\mus_multistable_intro_drone		973260
+	612444726	lvl_multistable_portal_03	Y:\Work\MV3\mv3\mv3-wwise\.cache\A2\{A295BADF-CC68-0DD2-C903-511A3E0B98D3}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Level Events\lvl_multistable_portal\lvl_multistable_portal_03		35893
+	664156922	lvl_multistable_dragger_lower_01	Y:\Work\MV3\mv3\mv3-wwise\.cache\84\{84F3184D-F834-FC72-8257-29E656C9E027}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Level Events\lvl_multistable_dragger_lower\lvl_multistable_dragger_lower_01		25228
+	669448472	amb_multistable_architect_storm	Y:\Work\MV3\mv3\mv3-wwise\.cache\EC\{EC793B10-2A9C-F1EC-F713-CCD0B621FF99}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Ambient + Music\amb_multistable_architect_storm		638299
+	679199779	int_multistable_rotator_nubs_01	Y:\Work\MV3\mv3\mv3-wwise\.cache\7F\{7F294F4F-C045-8D8F-5393-A293F746567D}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Interactions\int_multistable_rotator_nubs\int_multistable_rotator_nubs_01		19179
+	777259094	amb_multistable_merge	Y:\Work\MV3\mv3\mv3-wwise\.cache\13\{13B23469-573B-6F0A-330A-3D3ADC0D59A4}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Ambient + Music\amb_multistable_merge		563045
+	811385902	lvl_multistable_enter_night_01	Y:\Work\MV3\mv3\mv3-wwise\.cache\8F\{8F83F271-544F-1E87-A09C-19C5941AF11F}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Level Events\lvl_multistable_enter_night\lvl_multistable_enter_night_01		14611
+	817111036	lvl_multistable_platform_invert	Y:\Work\MV3\mv3\mv3-wwise\.cache\82\{82AC42C8-041D-92E8-0480-F0C69FF3A808}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Level Events\lvl_multistable_platform_invert		94831
+	848917623	amb_multistable_intro_night	Y:\Work\MV3\mv3\mv3-wwise\.cache\5E\{5E52FEC8-8940-6855-4A16-82255E6ACB0C}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Ambient + Music\amb_multistable_intro\amb_multistable_intro_night		250157
+	897071889	mus_multistable_blues	Y:\Work\MV3\mv3\mv3-wwise\.cache\63\{636C9AAA-3202-4368-CCD2-01F3C6899EB5}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Ambient + Music\mus_multistable_blues_blend\mus_multistable_blues		871558
+	981233316	lvl_multistable_rotator_appears	Y:\Work\MV3\mv3\mv3-wwise\.cache\FB\{FB761667-6944-CE82-D1C6-FBF145EB391D}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Level Events\lvl_multistable_rotator_appears		165803
+	991568177	int_multistable_rotator_nubs_02	Y:\Work\MV3\mv3\mv3-wwise\.cache\B8\{B8DF8D4C-5CD8-75E8-6FCA-B5ED1C5F372E}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Interactions\int_multistable_rotator_nubs\int_multistable_rotator_nubs_02		18723
+	1040831942	lvl_multistable_architect_appears	Y:\Work\MV3\mv3\mv3-wwise\.cache\CE\{CE4F8427-485E-1553-7120-4D618B2DEBB6}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Level Events\lvl_multistable_architect_appears		185509
+	1055548637	lvl_multistable_enter_night_02	Y:\Work\MV3\mv3\mv3-wwise\.cache\E2\{E25B16F7-B7E2-57BB-1BA4-03BBD5D20DA7}.wem		\Actor-Mixer Hierarchy\MV3_Chapters\Chapter_08_Multistable\Level_Act2_Multistable\Level Events\lvl_multistable_enter_night\lvl_multistable_enter_night_02		14504
+

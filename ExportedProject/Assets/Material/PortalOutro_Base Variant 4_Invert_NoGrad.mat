@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PortalOutro_Base Variant 4_Invert_NoGrad
+  m_Shader: {fileID: 4800000, guid: 391e2bd9906a2db448cce41387b408de, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - AO_MULT
+  - AO_ON
+  - BLEND_MODE_NONE
+  - MAIN_TEXTURE_MULT
+  - POINTLIGHTS_ON
+  - SHADOW_CASTER_ON
+  - TEXTURE_ON
+  - X_GRADIENT_ON
+  - Y_GRADIENT_ON
+  - Z_GRADIENT_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3999
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AltColorMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _CameraSpaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _CubeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GlowMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GlowMaskLerp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 11314a425066fc140a8b95f844ee9401, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTexLerpTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 30, y: 30}
+        m_Offset: {x: 0, y: 0}
+      _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RoughnessTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _WindTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints:
+      _LightLayer: -1
+    m_Floats:
+      _AOColorBlend: 1
+      _AODepthOffset: 0
+      _BlackLevel: 0
+      _BumpScale: 1
+      _CameraSpaceTexAngle: 0
+      _CameraSpaceTexBlend: 1
+      _CameraSpaceTexWrap: 3
+      _CubeMapExposure: 1
+      _CubeMapZoom: 0.5
+      _CullMode: 2
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _DstMode: 0
+      _EditorTab: 0
+      _EditorTime: 0
+      _F0: 0
+      _FollowWaterMagnitude: 1
+      _FresnelStrength: 1
+      _Glossiness: 0.5
+      _GlowAmount: 0.274
+      _GlowInteractive: 0
+      _GlowMaskLerpValue: 0
+      _HueShift: 0
+      _IlluminationMode: 0
+      _MainTexBlend: 1
+      _MainTexLerpValue: 0
+      _MaxAlpha: 1
+      _Metallic: 0
+      _MidtoneLevel: 0.5
+      _Mode: 0
+      _MultiStableLerp: 0
+      _NoiseIntensity: 0.46
+      _NormalStrength: 1
+      _OcclusionStrength: 1
+      _OffsetScale: 1
+      _Optimize: 0
+      _Parallax: 0.02
+      _PointLightOffset: 1
+      _PointLightsLift: 4
+      _PointLightsMode: 1
+      _Roughness: 1
+      _SaturationShift: 0
+      _SrcBlend: 1
+      _SrcMode: 1
+      _StencilComp: 3
+      _StencilOp: 2
+      _StencilRef: 74
+      _UVPingPongRange: 1
+      _UVScrollMode: 0
+      _UVScrollSpeed: 1
+      _UVSec: 0
+      _ValueShift: 0
+      _VertexColorBlend: 1
+      _WhiteLevel: 1
+      _WobbleDirection: 7
+      _WobbleFrequency: 1
+      _WobbleInvWavelength: 10
+      _WobbleMagnitude: 0.2
+      _WobbleSpace: 0
+      _YFogMax: -28.84368
+      _YFogMin: -14.774315
+      _ZTest: 4
+      _ZWrite: 1
+    m_Colors:
+      _AOColor: {r: 0.7282606, g: 0.42352945, b: 0.9882353, a: 1}
+      _AdditiveColor: {r: 0.26415092, g: 0.113385536, b: 0.20071867, a: 1}
+      _AltXColor: {r: 1, g: 0, b: 0, a: 1}
+      _AltYColor: {r: 0, g: 1, b: 0, a: 1}
+      _AltZColor: {r: 0, g: 0, b: 1, a: 1}
+      _CamDirection: {r: 0.5773503, g: -0.5773503, b: 0.5773502, a: 0}
+      _CameraSpaceTexEnd: {r: 4.739347, g: -0.5213995, b: -5.260748, a: 0}
+      _CameraSpaceTexStart: {r: -10.000001, g: -10.000002, b: 0, a: 0}
+      _Color: {r: 1, g: 1, b: 1, a: 0.5}
+      _CubeMapRotation: {r: 0, g: 0, b: 0, a: 1}
+      _CubeMapViewDirection: {r: 0, g: 0, b: 1, a: 1}
+      _DiffuseColor: {r: 1, g: 1, b: 0, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _GlowColor: {r: 0.26986474, g: 0.1745283, b: 1, a: 0}
+      _LightPoint: {r: 0, g: 0, b: 0, a: 1}
+      _MainTexTint: {r: 0.9528302, g: 0.77999693, b: 0.74158955, a: 1}
+      _MultiClipPlane0: {r: 0, g: 1, b: 0, a: -1000}
+      _MultiClipPlane1: {r: 0, g: 1, b: 0, a: -1000}
+      _MultiClipPlane2: {r: 0, g: 1, b: 0, a: -1000}
+      _MultiClipPlane3: {r: 0, g: 1, b: 0, a: -1000}
+      _MultiClipPlane4: {r: 0, g: 1, b: 0, a: -1000}
+      _MultiClipPlane5: {r: 0, g: 1, b: 0, a: -1000}
+      _OffsetPosition: {r: 0, g: 0, b: 0, a: 0}
+      _Plane0: {r: 0.016093995, g: 0.99171823, b: -0.12742114, a: -7.407557}
+      _Plane1: {r: 0.24272546, g: 0.93864554, b: 0.24500805, a: 1.0613843}
+      _PointLightsReferenceDirection: {r: -0.44, g: 0.86, b: -0.26, a: 1}
+      _RimColor: {r: 1, g: 1, b: 1, a: 1}
+      _TintColor: {r: 0.9607843, g: 0.72156864, b: 0.9123411, a: 1}
+      _UVRemap: {r: 0, g: 1, b: 0, a: 1}
+      _UVScrollDirection: {r: 0, g: 1, b: 0, a: 1}
+      _VertexColor: {r: 0, g: 0, b: 0, a: 1}
+      _WobbleVectorDirection: {r: 0, g: 0, b: 0, a: 0}
+      _WobbleVectorOrthogonal: {r: 0, g: 0, b: 0, a: 0}
+      _X2Color: {r: 0.8238993, g: 0.32385972, b: 0.33205697, a: 1}
+      _XColor: {r: 0.46274513, g: 0.41176474, b: 0.78823537, a: 1}
+      _XGradEnd: {r: -8.20242, g: -6.227803, b: 1.9746178, a: 0}
+      _XGradStart: {r: -7.9291124, g: -8.736084, b: -0.80697125, a: 0}
+      _Y2Color: {r: 0.7735849, g: 0.26515946, b: 0.3867938, a: 1}
+      _YColor: {r: 1, g: 0.847882, b: 0.57547164, a: 1}
+      _YFogColor: {r: 1, g: 0.9960785, b: 0.9921569, a: 1}
+      _YGradEnd: {r: 8.352041, g: 11.261902, b: 2.9098606, a: 0}
+      _YGradStart: {r: 5.943813, g: -0.9533305, b: -6.897145, a: 0}
+      _Z2Color: {r: 0.7586386, g: 0.28242543, b: 0.8553459, a: 1}
+      _ZColor: {r: 0.9843138, g: 0.8117648, b: 0.6313726, a: 1}
+      _ZGradEnd: {r: -3.2037115, g: -5.728917, b: -2.525206, a: 0}
+      _ZGradStart: {r: -3.611867, g: -3.7647672, b: -0.15290047, a: 0}
+  m_BuildTextureStacks: []

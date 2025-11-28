@@ -1,0 +1,61 @@
+WaitForTitleScreen
+
+# Sail to first island
+Sail: 26.21, -5.48, 25.83
+Sail: -0.73, -5.48, -0.27
+Dock: 1.50, -5.50, -7.50
+
+Nav: 6.50, -2.50, -4.50
+Mover: DRAGGER, 2.00
+Nav: 5.50, -0.54, -2.50
+Mover: DRAGGER, 0.00
+
+# Press first button
+Nav: 4.50, 1.50, -1.50
+
+# Wait for first rotator Reveal
+WaitSeconds: 5
+BoardBoat
+Mover: ROTATOR_1st dock, -180.00
+
+# Sail to moved dock
+Sail: 7.86, -5.48, -14.03
+Dock: 17.40, -5.48, -3.60
+
+Nav: 7.50, 1.47, -4.50
+
+Mover: DRAGGER, 4.00
+Nav: 8.50, 5.50, -4.50
+
+# Second rotator reveal
+WaitSeconds: 4
+
+Mover: ROTATOR_RotatorHandleAnim, -180.00
+BoardBoat
+Sail: 28.86, -5.48, 11.62
+Dock: 24.50, -5.48, 17.50
+Nav: 17.50, 0.50, 6.50
+Mover: ROTATOR_RotatorHandleAnim, 0.00
+Nav: 19.50, -4.37, 3.50
+
+# Meet NPC
+WaitSeconds: 6
+
+Nav: 17.50, 0.50, 6.50
+Mover: ROTATOR_RotatorHandleAnim, -180.00
+BoardBoat
+
+# Sail to second island
+Sail: 28.62, -5.48, 25.39
+Dock: 35.52, -5.50, 9.65
+
+Nav: 39.52, -2.38, 13.65
+
+WaitSeconds: 3
+Nav: 50.52, 0.50, 18.65
+
+WaitSeconds: 20
+
+Mandala
+WaitSeconds: 5
+Button: ContinueButton

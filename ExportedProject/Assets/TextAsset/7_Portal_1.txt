@@ -1,0 +1,25 @@
+WaitForTitleScreen
+
+WaitSeconds: 5
+
+Nav: -4.00, -7.50, 0.00
+WaitSeconds: 1
+Mover: Chunk/dragger, -7.00
+Nav: 0.00, 5.00, -0.50
+Mover: Chunk/dragger, 0.00
+
+# Wait for child NPC to join you
+WaitSeconds: 3
+Nav: 0.00, 2.00, -0.50
+Mover: Chunk/dragger, -7.00
+Nav: -2.00, -8.00, -0.50
+Mover: Chunk/dragger, 0.00
+Nav: -4.00, -8.00, -0.50
+Mover: Chunk/dragger, -7.00
+Nav: 0.00, 6.50, 1.00
+
+#Path reveal
+WaitSeconds: 3
+
+#Enter door
+Nav: 0.00, 7.50, 5.00

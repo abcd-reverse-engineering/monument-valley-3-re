@@ -1,0 +1,947 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 330670497, guid: a7c8ed169960a6d09f38393641221f85, type: 3}
+  m_Name: InputActions
+  m_EditorClassIdentifier:
+  m_ActionMaps:
+  - m_Name: Gameplay
+    m_Id: 5f04de91-7999-4fbe-be40-b516ecf674bd
+    m_Asset: {fileID: 11400000}
+    m_Actions:
+    - m_Name: LevelSelectorConfirm
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: f7c4faa2-a824-4a61-8f1d-2756a837162d
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: GamepadMove
+      m_Type: 0
+      m_ExpectedControlType: Stick
+      m_Id: a726cdc1-5f53-415c-9ce0-20e595d67d08
+      m_Processors: StickDeadzone
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: GamepadInteract
+      m_Type: 2
+      m_ExpectedControlType: Button
+      m_Id: bcc94042-bae1-4c81-8ebb-6144159a2dfe
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Start
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: c4096099-1863-40bc-ba12-98d27e910bc0
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: NonPhysicalMove
+      m_Type: 2
+      m_ExpectedControlType: Stick
+      m_Id: b1ae5873-d3f8-4efa-92e0-0ca71f382c08
+      m_Processors: StickDeadzone
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: LevelSelectorCancel
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: 059250f7-5329-40d6-931f-536dde1264f5
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Bindings:
+    - m_Name:
+      m_Id: 9941eda7-d494-4399-8f53-93576631d6f1
+      m_Path: '<Gamepad>/leftStick'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadMove
+      m_Flags: 0
+    - m_Name:
+      m_Id: 9be2d182-a288-4a41-bd33-0ed50d9763ec
+      m_Path: '<Gamepad>/dpad'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadMove
+      m_Flags: 0
+    - m_Name: 2D Vector
+      m_Id: df23d9b5-bab4-43df-8588-fcc03fdfc642
+      m_Path: 2DVector
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: GamepadMove
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 17d27ce6-2dfc-4590-90da-ce1533a98a5b
+      m_Path: '<Keyboard>/upArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadMove
+      m_Flags: 8
+    - m_Name: down
+      m_Id: 6e473709-1cac-4be7-98e8-c35a1ba01732
+      m_Path: '<Keyboard>/downArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadMove
+      m_Flags: 8
+    - m_Name: left
+      m_Id: 44c55812-82e1-4cda-ae61-2b3545364b85
+      m_Path: '<Keyboard>/leftArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadMove
+      m_Flags: 8
+    - m_Name: right
+      m_Id: b71b4269-d9ab-4d50-bb79-e764a61bef1a
+      m_Path: '<Keyboard>/rightArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadMove
+      m_Flags: 8
+    - m_Name:
+      m_Id: 7ace77ee-319d-457d-9a41-e014dab7a243
+      m_Path: '<Gamepad>/leftStick'
+      m_Interactions:
+      m_Processors: StickDeadzone
+      m_Groups: GamepadInputMode
+      m_Action: NonPhysicalMove
+      m_Flags: 0
+    - m_Name:
+      m_Id: 9f9f65f1-4318-4c5d-ad78-1d62780c8426
+      m_Path: '<Gamepad>/dpad'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: NonPhysicalMove
+      m_Flags: 0
+    - m_Name: 2D Vector
+      m_Id: 1bfb01ee-49f3-4970-8087-e4a22c1a10cd
+      m_Path: 2DVector
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: NonPhysicalMove
+      m_Flags: 4
+    - m_Name: up
+      m_Id: aff57453-367a-4351-92df-7e000c2cb84b
+      m_Path: '<Keyboard>/upArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: NonPhysicalMove
+      m_Flags: 8
+    - m_Name: down
+      m_Id: c35b0235-9869-480b-a429-ca4ad3e85216
+      m_Path: '<Keyboard>/downArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: NonPhysicalMove
+      m_Flags: 8
+    - m_Name: left
+      m_Id: 78bc5f71-7ab9-4fcc-84c6-f121286aafd0
+      m_Path: '<Keyboard>/leftArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: NonPhysicalMove
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 8b940135-f08f-4aca-ad62-0c486fb72138
+      m_Path: '<Keyboard>/rightArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: NonPhysicalMove
+      m_Flags: 8
+    - m_Name:
+      m_Id: e8899f8f-38c4-40a7-b5c0-8168a5b959a7
+      m_Path: '<Keyboard>/enter'
+      m_Interactions:
+      m_Processors:
+      m_Groups: ;MouseInputMode;GamepadInputMode
+      m_Action: LevelSelectorConfirm
+      m_Flags: 0
+    - m_Name:
+      m_Id: 19e23674-b143-47d1-8553-2c025b6d3155
+      m_Path: '<NPad>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: LevelSelectorConfirm
+      m_Flags: 0
+    - m_Name:
+      m_Id: 2b28e473-5ac0-4dbf-81d2-779fb117fb7f
+      m_Path: '<SwitchProControllerHID>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: LevelSelectorConfirm
+      m_Flags: 0
+    - m_Name:
+      m_Id: 308a55c8-539d-4ecf-952c-fd24a5f796d3
+      m_Path: '<DualShockGamepad>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: LevelSelectorConfirm
+      m_Flags: 0
+    - m_Name:
+      m_Id: 905be78a-8053-434d-b025-fed055f9fd1c
+      m_Path: '<GXDKGamepad>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: LevelSelectorConfirm
+      m_Flags: 0
+    - m_Name:
+      m_Id: b018d40a-4892-46bc-bb47-07987fcdc731
+      m_Path: '<XInputController>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: LevelSelectorConfirm
+      m_Flags: 0
+    - m_Name:
+      m_Id: 4048deca-093a-4ec5-8fbc-cbad859913de
+      m_Path: '<Keyboard>/space'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: LevelSelectorConfirm
+      m_Flags: 0
+    - m_Name:
+      m_Id: 4421a996-7cd3-4204-a65b-0c3813939b9e
+      m_Path: '<NPad>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadInteract
+      m_Flags: 0
+    - m_Name:
+      m_Id: b2311fc6-0956-4970-8938-1b7b294b76e7
+      m_Path: '<DualShockGamepad>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadInteract
+      m_Flags: 0
+    - m_Name:
+      m_Id: 31e95e0c-74fb-4bc6-b736-c5c57610ed9f
+      m_Path: '<GXDKGamepad>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadInteract
+      m_Flags: 0
+    - m_Name:
+      m_Id: 057460d0-6245-4248-8ec1-a37db44785d4
+      m_Path: '<XInputController>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadInteract
+      m_Flags: 0
+    - m_Name:
+      m_Id: ccb122d2-999c-42ef-b891-22fda8cd1c1d
+      m_Path: '<SwitchProControllerHID>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadInteract
+      m_Flags: 0
+    - m_Name:
+      m_Id: 2fe4ab73-1d81-4294-b482-1c4563b445ca
+      m_Path: '<Gamepad>/buttonNorth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadInteract
+      m_Flags: 0
+    - m_Name:
+      m_Id: f676731d-3d36-45de-9f5a-1baf673e6112
+      m_Path: '<Gamepad>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadInteract
+      m_Flags: 0
+    - m_Name:
+      m_Id: 1d71f2cd-bee1-4c94-9a40-92b0eb86ad76
+      m_Path: '<Gamepad>/buttonWest'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadInteract
+      m_Flags: 0
+    - m_Name:
+      m_Id: 6fa02dfb-9086-4aaa-a467-f976bcaaec9b
+      m_Path: '<Gamepad>/leftShoulder'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadInteract
+      m_Flags: 0
+    - m_Name:
+      m_Id: 7c61e4ef-bb59-4ef2-ba3a-40138990973e
+      m_Path: '<Gamepad>/rightShoulder'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadInteract
+      m_Flags: 0
+    - m_Name:
+      m_Id: 4442c472-2d6d-4d81-b017-764cad18ec28
+      m_Path: '<Keyboard>/space'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadInteract
+      m_Flags: 0
+    - m_Name:
+      m_Id: 93f7daba-c273-4051-a6e9-725509536e74
+      m_Path: '<NPad>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadInteract
+      m_Flags: 0
+    - m_Name:
+      m_Id: b4aa6635-4ff2-45c7-9120-994039348e01
+      m_Path: '<SwitchProControllerHID>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: GamepadInteract
+      m_Flags: 0
+    - m_Name:
+      m_Id: a7eca2fe-8a1f-4d2d-870d-c6ef9ec274ca
+      m_Path: '<Gamepad>/start'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Start
+      m_Flags: 0
+    - m_Name:
+      m_Id: 21201ddb-464b-4e2e-a6bc-dde4079e2e20
+      m_Path: '<Keyboard>/escape'
+      m_Interactions:
+      m_Processors:
+      m_Groups: ;GamepadInputMode;MouseInputMode
+      m_Action: Start
+      m_Flags: 0
+    - m_Name:
+      m_Id: 9722dc57-cbc1-48b4-98d7-0b4e7f3a62e6
+      m_Path: '<Touchscreen>/{Back}'
+      m_Interactions:
+      m_Processors:
+      m_Groups: TouchInputMode
+      m_Action: Start
+      m_Flags: 0
+    - m_Name:
+      m_Id: 076ca0d1-78ec-4133-88b2-9e99a2d66fd9
+      m_Path: '<GXDKGamepad>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: LevelSelectorCancel
+      m_Flags: 0
+    - m_Name:
+      m_Id: 3b345090-1a1b-4e36-a129-829de6f4ee31
+      m_Path: '<SwitchProControllerHID>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: LevelSelectorCancel
+      m_Flags: 0
+    - m_Name:
+      m_Id: e4e58152-4e3e-4d12-aa35-8a280cac709e
+      m_Path: '<XInputController>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: LevelSelectorCancel
+      m_Flags: 0
+    - m_Name:
+      m_Id: 31796b5e-94b2-497b-b57a-0a8d2680e0d9
+      m_Path: '<DualShockGamepad>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: LevelSelectorCancel
+      m_Flags: 0
+    - m_Name:
+      m_Id: a87ef135-d045-4082-9e7a-9eedd1740be5
+      m_Path: '<NPad>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: LevelSelectorCancel
+      m_Flags: 0
+  - m_Name: UI
+    m_Id: 222651f4-c357-4d44-8ac8-9f7a265d4a2a
+    m_Asset: {fileID: 11400000}
+    m_Actions:
+    - m_Name: Confirm
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: 1f8a1f36-0da1-48a1-9ffc-39a5714df019
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Cancel
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: d1108ba9-579c-4e5e-80e3-49223368fef0
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Secondary
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: f9762498-3d56-430d-88df-08893629d9b5
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Tertiary
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: a53bf321-c94a-4fdb-a819-fe48516241fb
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Start
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: 09f4ecfd-6697-44f4-b6a9-53f71a226732
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: LeftTrigger
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: fc86f8b7-6232-43f7-8a28-06a18dbc0015
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: RightTrigger
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: 4032ff3d-cf6f-479a-a8af-31331f8e7494
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Move
+      m_Type: 0
+      m_ExpectedControlType: Stick
+      m_Id: 542efaf6-2d4c-4c19-bcf6-1fc4e7bf9f14
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: Scroll
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: e15c5b9e-4493-484d-a913-a5ebe6a44446
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: DismissConfirmOnlyScreen
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: cee5abde-cd4a-47d5-a647-08568aae27f9
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Zoom
+      m_Type: 0
+      m_ExpectedControlType: Axis
+      m_Id: 97c8618d-371a-4f66-a2a2-a2d379706833
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: UIPointer
+      m_Type: 2
+      m_ExpectedControlType: Vector2
+      m_Id: c8a6856e-f5f8-4a0f-96d7-b22e93055abf
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: UIPointerClick
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: ac4e7cbe-674a-4f38-a284-ed775020dd12
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Select
+      m_Type: 1
+      m_ExpectedControlType:
+      m_Id: c0f8faed-2233-49d1-9f88-45ea2320d98c
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Bindings:
+    - m_Name:
+      m_Id: 50d8a226-a493-4704-b73b-3831d2e804d9
+      m_Path: '<Keyboard>/enter'
+      m_Interactions:
+      m_Processors:
+      m_Groups: ;GamepadInputMode
+      m_Action: Confirm
+      m_Flags: 0
+    - m_Name:
+      m_Id: aa302b65-b160-404f-9581-4e03ba88062f
+      m_Path: '<NPad>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Confirm
+      m_Flags: 0
+    - m_Name:
+      m_Id: ce31850d-0b2c-4536-9bc1-68ae237d7b06
+      m_Path: '<SwitchProControllerHID>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Confirm
+      m_Flags: 0
+    - m_Name:
+      m_Id: c739a7bd-dccc-4532-a1c5-61fa1b51b16f
+      m_Path: '<DualShockGamepad>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Confirm
+      m_Flags: 0
+    - m_Name:
+      m_Id: 57b192a2-d887-4795-8008-b76000a2f1a6
+      m_Path: '<XInputController>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Confirm
+      m_Flags: 0
+    - m_Name:
+      m_Id: f2e6724e-e866-4120-a36c-5f7a57030805
+      m_Path: '<GXDKGamepad>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Confirm
+      m_Flags: 0
+    - m_Name:
+      m_Id: 99a08e44-d1ab-416e-b791-95c38a703c28
+      m_Path: '<Keyboard>/space'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Confirm
+      m_Flags: 0
+    - m_Name:
+      m_Id: 7d134b65-a612-44b5-adf2-50372400cea5
+      m_Path: '<Keyboard>/escape'
+      m_Interactions:
+      m_Processors:
+      m_Groups: MouseInputMode;GamepadInputMode
+      m_Action: Cancel
+      m_Flags: 0
+    - m_Name:
+      m_Id: 20240ef2-0dfd-400e-bc5a-94b864ee1434
+      m_Path: '<NPad>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Cancel
+      m_Flags: 0
+    - m_Name:
+      m_Id: 53f950ff-4c33-49d9-98a2-0ab24d5f671b
+      m_Path: '<SwitchProControllerHID>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Cancel
+      m_Flags: 0
+    - m_Name:
+      m_Id: d05760e3-6d25-4704-addf-bb55265e9664
+      m_Path: '<DualShockGamepad>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Cancel
+      m_Flags: 0
+    - m_Name:
+      m_Id: 0335d6ad-e13c-48a1-bb6a-a3f48c9ac15c
+      m_Path: '<GXDKGamepad>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Cancel
+      m_Flags: 0
+    - m_Name:
+      m_Id: f3a0eea8-92c1-4b45-9404-7793282c9571
+      m_Path: '<XInputController>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Cancel
+      m_Flags: 0
+    - m_Name:
+      m_Id: 65a9b0bb-61bd-41f6-84b0-8a6f914c4d80
+      m_Path: '<Touchscreen>/{Back}'
+      m_Interactions:
+      m_Processors:
+      m_Groups: TouchInputMode
+      m_Action: Cancel
+      m_Flags: 0
+    - m_Name:
+      m_Id: bdcde3c0-7a75-46d2-82e4-b50c1884609c
+      m_Path: '<Gamepad>/buttonWest'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Secondary
+      m_Flags: 0
+    - m_Name:
+      m_Id: 007d4d31-249b-4a2a-993e-b20fecdea315
+      m_Path: '<Gamepad>/buttonNorth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Tertiary
+      m_Flags: 0
+    - m_Name:
+      m_Id: 8e00ed16-18bf-497a-ab5c-1cbd565c19f5
+      m_Path: '<Gamepad>/start'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Start
+      m_Flags: 0
+    - m_Name:
+      m_Id: 219b115a-092a-49c4-b60b-247ce0182210
+      m_Path: '<Gamepad>/leftTrigger'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: LeftTrigger
+      m_Flags: 0
+    - m_Name:
+      m_Id: 5bd6c7b2-a0de-441b-9854-0e2e21db2721
+      m_Path: '<Gamepad>/rightTrigger'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: RightTrigger
+      m_Flags: 0
+    - m_Name:
+      m_Id: 39916f06-4746-4a82-9c2f-1cacf0b9b521
+      m_Path: '<Gamepad>/leftStick'
+      m_Interactions:
+      m_Processors: StickDeadzone(min=0.5)
+      m_Groups: GamepadInputMode
+      m_Action: Move
+      m_Flags: 0
+    - m_Name: 2D Vector
+      m_Id: 19ff644b-290e-423a-acac-8b34cf2036a7
+      m_Path: 2DVector
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Move
+      m_Flags: 4
+    - m_Name: up
+      m_Id: c00e6a1d-cefb-4059-903a-02752c569b34
+      m_Path: '<Keyboard>/upArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups: ;GamepadInputMode
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: down
+      m_Id: aa144c2d-7c92-46c3-937a-dcce4e3caa22
+      m_Path: '<Keyboard>/downArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups: ;GamepadInputMode
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: left
+      m_Id: 63d19b88-34a9-49ea-aa03-a0df503f12b7
+      m_Path: '<Keyboard>/leftArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups: ;GamepadInputMode
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: right
+      m_Id: f58acc9d-4abe-4f55-9cc0-ba36f42ed2c3
+      m_Path: '<Keyboard>/rightArrow'
+      m_Interactions:
+      m_Processors:
+      m_Groups: ;GamepadInputMode
+      m_Action: Move
+      m_Flags: 8
+    - m_Name:
+      m_Id: b124497c-8b51-4c58-92dd-2e6fb95c88ca
+      m_Path: '<Gamepad>/dpad'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Move
+      m_Flags: 0
+    - m_Name:
+      m_Id: 4319b377-f47a-4768-830f-1b16b200a583
+      m_Path: '<Mouse>/scroll'
+      m_Interactions:
+      m_Processors:
+      m_Groups: MouseInputMode
+      m_Action: Scroll
+      m_Flags: 0
+    - m_Name:
+      m_Id: 4ea38862-8860-4f98-96f5-0cb83ea8eb35
+      m_Path: '<Keyboard>/enter'
+      m_Interactions:
+      m_Processors:
+      m_Groups: ;GamepadInputMode;MouseInputMode
+      m_Action: DismissConfirmOnlyScreen
+      m_Flags: 0
+    - m_Name:
+      m_Id: 977951f4-81de-4286-ac21-2613cf099b23
+      m_Path: '<Keyboard>/escape'
+      m_Interactions:
+      m_Processors:
+      m_Groups: ;GamepadInputMode;MouseInputMode
+      m_Action: DismissConfirmOnlyScreen
+      m_Flags: 0
+    - m_Name:
+      m_Id: 753d65b1-be4a-4252-80c8-e22e343535f8
+      m_Path: '<NPad>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: DismissConfirmOnlyScreen
+      m_Flags: 0
+    - m_Name:
+      m_Id: 9ed02aa1-1cc8-41b2-b28d-e813302a57d8
+      m_Path: '<SwitchProControllerHID>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: DismissConfirmOnlyScreen
+      m_Flags: 0
+    - m_Name:
+      m_Id: 9810938c-87ed-421c-9394-4ff884d369c7
+      m_Path: '<NPad>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: DismissConfirmOnlyScreen
+      m_Flags: 0
+    - m_Name:
+      m_Id: 6030857f-7f93-4666-9cf6-1e388692cc7d
+      m_Path: '<SwitchProControllerHID>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: DismissConfirmOnlyScreen
+      m_Flags: 0
+    - m_Name:
+      m_Id: fc41ebee-788b-4454-a0d4-7f07207d8ac5
+      m_Path: '<DualShockGamepad>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: DismissConfirmOnlyScreen
+      m_Flags: 0
+    - m_Name:
+      m_Id: c2796538-e35e-41c5-bf46-28c48efed0ce
+      m_Path: '<DualShockGamepad>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: DismissConfirmOnlyScreen
+      m_Flags: 0
+    - m_Name:
+      m_Id: bcf05327-72a5-44a3-bf21-cac46fc7f4ed
+      m_Path: '<GXDKGamepad>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: DismissConfirmOnlyScreen
+      m_Flags: 0
+    - m_Name:
+      m_Id: 27da7914-7cb4-43bf-8142-280a9ad99bfa
+      m_Path: '<XInputController>/buttonSouth'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: DismissConfirmOnlyScreen
+      m_Flags: 0
+    - m_Name:
+      m_Id: 9f9c7eef-fbb1-450f-a08f-38b7ba6d1dfe
+      m_Path: '<GXDKGamepad>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: DismissConfirmOnlyScreen
+      m_Flags: 0
+    - m_Name:
+      m_Id: 42d5e796-d990-4094-af05-f57fc4fc2381
+      m_Path: '<XInputController>/buttonEast'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: DismissConfirmOnlyScreen
+      m_Flags: 0
+    - m_Name:
+      m_Id: be99889b-9e76-4b39-87b0-2b16e80a8217
+      m_Path: '<Keyboard>/space'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: DismissConfirmOnlyScreen
+      m_Flags: 0
+    - m_Name: 1D Axis
+      m_Id: b27085e2-9b8c-4f26-b8b3-059eb3230775
+      m_Path: 1DAxis
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Zoom
+      m_Flags: 4
+    - m_Name: negative
+      m_Id: 1517500e-5b7e-4dac-86eb-b0610b8a1915
+      m_Path: '<Gamepad>/leftTrigger'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Zoom
+      m_Flags: 8
+    - m_Name: positive
+      m_Id: 213fe8ab-0481-4ce3-ab85-8d334fb07a8f
+      m_Path: '<Gamepad>/rightTrigger'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Zoom
+      m_Flags: 8
+    - m_Name:
+      m_Id: 83195c17-b3f6-49db-ac72-423a8c990d67
+      m_Path: '<Pointer>/position'
+      m_Interactions:
+      m_Processors:
+      m_Groups: MouseInputMode;TouchInputMode
+      m_Action: UIPointer
+      m_Flags: 0
+    - m_Name:
+      m_Id: e3c85e5a-7713-4116-b2bd-3a5369cc2e4a
+      m_Path: '<Pointer>/press'
+      m_Interactions:
+      m_Processors:
+      m_Groups: MouseInputMode;TouchInputMode
+      m_Action: UIPointerClick
+      m_Flags: 0
+    - m_Name:
+      m_Id: 3a1d424a-61bb-46dc-b7f5-8dba08ca82d0
+      m_Path: '<DualShockGamepad>/touchpadButton'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Select
+      m_Flags: 0
+    - m_Name:
+      m_Id: 404b8af2-1624-4f7b-a271-599651c2b3a5
+      m_Path: '<NPad>/select'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Select
+      m_Flags: 0
+    - m_Name:
+      m_Id: 069b89e0-ebce-4ada-a81e-778f273ff579
+      m_Path: '<SwitchProControllerHID>/select'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Select
+      m_Flags: 0
+    - m_Name:
+      m_Id: 55f3b5e2-824d-4464-ac38-096b15f79852
+      m_Path: '<GXDKGamepad>/select'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Select
+      m_Flags: 0
+    - m_Name:
+      m_Id: d33413e8-6573-4648-ad21-8f2c39e53828
+      m_Path: '<XInputController>/select'
+      m_Interactions:
+      m_Processors:
+      m_Groups: GamepadInputMode
+      m_Action: Select
+      m_Flags: 0
+  m_ControlSchemes:
+  - m_Name: MouseInputMode
+    m_BindingGroup: MouseInputMode
+    m_DeviceRequirements:
+    - m_ControlPath: '<Pointer>'
+      m_Flags: 0
+    - m_ControlPath: '<Keyboard>'
+      m_Flags: 1
+  - m_Name: GamepadInputMode
+    m_BindingGroup: GamepadInputMode
+    m_DeviceRequirements:
+    - m_ControlPath: '<Gamepad>'
+      m_Flags: 0
+    - m_ControlPath: '<Keyboard>'
+      m_Flags: 1
+  - m_Name: Keyboard-DeleteMe
+    m_BindingGroup: Keyboard-DeleteMe
+    m_DeviceRequirements:
+    - m_ControlPath: '<Keyboard>'
+      m_Flags: 0
+  - m_Name: TouchInputMode
+    m_BindingGroup: TouchInputMode
+    m_DeviceRequirements:
+    - m_ControlPath: '<Touchscreen>'
+      m_Flags: 0
+  m_IsProjectWide: 0

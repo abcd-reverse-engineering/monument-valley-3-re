@@ -1,0 +1,19 @@
+WaitForTitleScreen
+
+WaitSeconds: 20
+
+Tap: LighthouseTapTrigger
+
+WaitSeconds: 16
+Nav: 1.00, -4.75, 18.50
+
+# Storyteller moment
+WaitSeconds: 10
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 6
+
+Nav: 5.00, -11.75, 28.50

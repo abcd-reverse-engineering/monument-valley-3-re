@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2584908255	amb_splash_screen_play			\Splash Screen\amb_splash_screen_play	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2095203797	FastForward_Title_Splashscreen			\Game_Flow\FastForward_Title_Splashscreen	
+
+State	ID	Name	State Group			Notes
+	298685105	Ducked	FastForward_Title_Splashscreen			
+	348963587	Revert	FastForward_Title_Splashscreen			
+	748895195	None	FastForward_Title_Splashscreen			
+
+Effect plug-ins	ID	Name	Type				Notes
+	880395932	Headphones	Mastering Suite			
+	930712164	Off	Mastering Suite			
+	1396549701	SoundBar	Mastering Suite			
+	1568083719	TV	Mastering Suite			
+	2345052688	MV3_Master_V1	Mastering Suite			
+	2444352864	NightMode	Mastering Suite			
+	4131355637	HomeCinema	Mastering Suite			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	612888798	amb_splash_screen_03	Y:\Work\MV3\mv3\mv3-wwise\.cache\25\{2575241E-307E-44EF-565A-5C7F6B95A8A1}.wem		\Actor-Mixer Hierarchy\MV3_Global\MV3_Core_Sounds\Splash Screen\amb_splash_screen\amb_splash_screen_03		102231
+	847756521	amb_splash_screen_01	Y:\Work\MV3\mv3\mv3-wwise\.cache\CF\{CF45FD93-FFD4-641D-3B36-A8CF90E1824B}.wem		\Actor-Mixer Hierarchy\MV3_Global\MV3_Core_Sounds\Splash Screen\amb_splash_screen\amb_splash_screen_01		95349
+	924965615	amb_splash_screen_02	Y:\Work\MV3\mv3\mv3-wwise\.cache\A7\{A7C5627E-D436-EFE8-8C17-BFF7C1F7EEB5}.wem		\Actor-Mixer Hierarchy\MV3_Global\MV3_Core_Sounds\Splash Screen\amb_splash_screen\amb_splash_screen_02		97436
+

@@ -1,0 +1,486 @@
+# This is a plain text file that contains credits information with special syntax for certain text types.
+#
+# Lines start with a special character, defining what type of content the line contains.
+# Empty lines in this file are ignored. They can be used simply to help with layout within this file.
+# If you actually want an empty line, use the ~ symbol
+#
+# Cheatsheet:
+#
+#	+------------+----------------+---------------------+------------------------------------------------------+
+#	| First Char |  Content Type  |       Example       |                    Description                       |
+#	+------------+----------------+---------------------+------------------------------------------------------+
+#	|      !     | Image          | !divider-fancy      | Places an image vertically between blocks of text    |
+#	|      ^     | Main Header    | ^Production         | Localised string key for a main header group         |
+#	|      _     | Sub Header     | _SeniorProducer     | Localised string key for a sub header group          |
+#	|      $     | Localised text | $VanLe              | Localised string key for plain body text             |
+#	|      ~     | Empty Line     | ~                   | Explicit way to add a single empty line in body text |
+#	|  any other | Plain Text     | Michael Anderson    | Non-localised plain text                             |
+#	|      #     | Comment        | # This is a comment | Inline comments, ignored by credits system           |
+#	+------------+----------------+---------------------+------------------------------------------------------+
+
+$CreditsOpeningEA_Part1
+!IFRC
+$CreditsOpeningEA_Part2
+go.ustwo.games/mv3-impact
+
+!divider-simple
+
+^GameDirector
+Jennifer Estaris
+
+^Art
+_LeadArtist
+Lili Ibrahim
+
+_SeniorArtists
+Fen Beatty
+$HanaLee
+Holly Pickering
+Yauheni Vasiutsinski
+Ian Zell
+
+_TechnicalArtists
+Jon Mayoh
+Max van der Merwe
+
+_SeniorUIArtist
+Lale Welker
+
+_InternArtist
+Sham AlBdour
+
+_AdditionalArt
+Sean Wenham
+
+^Audio
+
+_MusicAudioDesign
+Todd Baker
+Lucie Treacher
+
+_Soloists
+Kadialy Kouyate - Kora
+Charlie Grey - Hardanger D'amore
+Tamar Osborn - Woodwinds
+Jan Hendrickse - Bansuri & Khaen
+Richard Harwood - Lead Cello
+Thomas Gould - Lead Violin
+Thomas Bingham - Piano
+
+^Design
+
+_LeadDesigner
+Emily Brown
+
+_SeniorDesigners
+$XuHe
+Flo Veltman
+Ryan Young
+
+_Designer
+Megan Matthews
+
+_JuniorDesigner
+Mairi Florence
+
+_AdditionalDesign
+Joël Beardshaw
+Tom Rigby
+
+^Production
+
+_LeadProducer
+John Lau
+
+_SeniorProducer
+Michael Anderson
+
+_HeadOfProd
+Ellen Hume
+
+_ReleaseManager
+Danny Stacey
+
+^Programming
+
+_LeadProgrammer
+Joseph Bennett
+Bulut Karakaya
+Manesh Mistry
+
+_PortingLeadProgrammer
+Gianluca Vatinno
+
+_PrincipalProgrammer
+$VanLe
+
+_SeniorProgrammers
+Matthew Atkins
+Gianluca Vatinno
+Craig Yates
+
+_SeniorGraphicsProgrammers
+Kuba Cupisz
+Rakesh Sharanappa
+
+_Programmers
+Kirsty Keatch
+Eoin Roche
+
+_JuniorProgrammer
+Flora Barratt
+
+_InternProgrammers
+Olesia Zaidman
+
+_AdditionalProgramming
+Ignacio Puccini
+
+^Marketing
+
+_LeadMarketing
+Jamie Wotton
+
+_CommercialManager
+Jane Campbell
+
+_MarketingExec
+Conor Clarke
+Josh Edgoose
+
+
+_GameTrailerEditor
+Derek Lieu
+
+^QualityAssurance
+
+_LeadQAAnalyst
+Rohit Kapoor
+
+_SeniorQAAnalyst
+Viji Rajaratnam
+
+_QAAnalyst
+Alannah Fowler
+
+_AdditionalQA
+_SeniorQATester
+Catherine Couturier
+Nicolas Dupinet
+
+^ClimateConsultants
+Trevin York
+Clayton Whittle
+Christa Avampato
+
+!divider-fancy
+
+^SessionMusicians
+
+_StringEnsemble
+Warren Zielinski - First Violin
+Magdalena Filipczak - First Violin
+Amy Tress - First Violin
+Elouisa Fleur Thom - Second Violin
+Raja Halder - Second Violin
+Beatrix Lovejoy - Second Violin
+Ciaran Mccabe - Second Violin
+Meghan Cassidy - Viola
+Eoin Scmidt Martin - Viola
+Steven Upshaw - Viola
+Reinoud Ford - Cello
+Katherine Jenkinson - Cello
+Diane Clarke - Bass
+Lucy Shaw - Bass
+Stephen Williams - Bass
+
+_RecordingEngineers
+Oliver Thompson - Air Edel
+Jamie Smith -  St. Mary’s Space
+
+!divider-fancy
+
+^AmberStudio
+$PostLaunchTeam
+
+_StudioHead
+Gabriel Stancu
+
+_CreativeDirection
+Francis Elphick
+
+_Production
+Valentin Voinea
+Stefan Ciocioi
+
+_GameDesign
+Fadi Zanbouah
+Bogdan Trau
+
+_Art
+Gabriel Barbu
+Cristian Popa
+
+_Engineering
+Andrei Cauc
+
+_BusinessDevelopment
+Ioana Pohontu
+
+_HeadOfStudios
+Mihai Sfrijan
+
+_SpecialThanks
+Jose Perez Cabo
+Giani Cojan
+Marius Gherman
+Bogdan Vulpescu
+Radu Doroftei
+Jaime Gine
+
+!divider-fancy
+
+^KWSStuGrp
+$LocTeam
+
+_KeywordsServLineDir
+Romina Franceschina
+
+_LocServicesDir
+Montse Garcia
+
+_LocPortfolioDir
+Maria Jose Garrido
+
+_LocPM
+Ana Paula Heidrich
+Ben Tan
+Marina Sandoval
+
+_Danish
+Emil Groth Larsen
+Astrid Skov-Jakobsen
+Alessandra Digsmed
+Zille Gellert
+
+_Dutch
+Chris Hoppenbrouwers
+Harry van Horen
+Tjerk Teitsma
+
+_French
+Amaury (EI) Doaré
+Cécile Gindrat
+Sophie Molines
+Alexis Roy-Petit
+
+_German
+Pia Kruse
+Claudia Hahn
+Martin Monsberger
+Stefan Herzog
+Julian Born
+
+_Italian
+Stefano Gaburri
+Emanuel Riccobene
+Francesca Pezzoli
+Margherita Ortolani
+Federica Pambianchi
+
+_Japanese
+Yukiko Hieda
+Yasuhiko Ishii
+Yasushi Kohama
+Risa Hasegawa
+Shiori Machida
+
+_Korean
+Kyung A Kang
+ByungHa
+Jae Kim
+
+_Malay
+Rachmi U.
+Shamsul B.
+Tasha S.
+
+_Polish
+Bartosz Klofik
+Jakub Radzimiński
+Maciej Oginski
+
+_PortugueseBR
+Fábio Martins de Macêdo
+Lucas Loureiro
+Maria Cláudia Araújo
+André Lourenço
+
+_SpanishLATAM
+Karina Adriana Casal
+Roberto Solís Ramírez
+Ricardo Castaño
+Franco Caruso
+Víctor Antonio Ruiz Chávez
+
+_SpanishES
+Adolfo Pérez Culla-González
+Elena Martos de las Heras
+Xavi Vernet
+
+_Thai
+Surisak
+Panuvat
+
+_Swedish
+Alexander Rehnman
+Andreas Bergman
+Anders Eklöf
+
+_TradChinese
+Kinra
+Vincent Charng
+Che-an (Justin) Lin
+May Yang
+
+_Russian
+Sophia Shishatskaya
+Aleksandr Borisov
+Daniel Timofeev
+
+_SimpChinese
+Kan Sun
+Tianning Wang
+Astrid Du
+
+_Turkish
+Aysenur Melike Ozkaya
+Engin Ilkiz
+Sena Nur Yildiz
+Hatice Zeliha Caglayan
+Ozgur Isgoren
+
+_Ukrainian
+Veronika Shvaitser
+Vitalii Khrystiuk
+
+_Vietnamese
+Nguyen M.
+Hai D.
+Rachmi U.
+
+_LQAManager
+Michal Dyrda
+
+_LQAPMs
+Nicola Pawlak
+Ion Doarme
+
+_TestLeads
+Kateryna Fomina
+Katarzyna Walter
+
+_LocTesters
+Weronika Hul
+Oleksandr Voronchuk
+Szymon Stelmach
+Karolina Wiecha
+Giulia Grasso
+Samuel Guerrero
+Marta Yeste Marco
+Nihat Canka
+Ivo Loureiro
+Eleanor van den Berg
+Paulina Krzykawska
+Bartłomiej Wach
+Chahar Mohamed
+Cora Bruno
+
+!divider-fancy
+
+^ustwogames
+
+_CEO
+Maria Sayans
+
+_CCO
+Danny Gray
+
+_CDO
+Peter Pashley
+
+_CFO
+Andy Whatley
+
+_ArtDirector
+David Fernández Huerta
+~
+Harold Adeniyi
+Blessing Babatunde
+Joanna Mabey
+Hana Noelle
+Julie Piedrabuena
+Angel Spence-Lewis
+
+_PersonalThanks
+Alice Pessey-Veltman
+Catalin Filip
+Erina Mistry
+Greg, Laila and Fredrik
+Jenna Jovi
+John Ribbins
+Jovito & May Estaris
+Michael George Matthews
+Octavia Bright
+Viktor, Pavel and Naz
+
+_ProductionChildren
+Ada & Jon
+Asya
+Domino
+Ela
+Ivy
+Jody & Marla
+Mai Mai
+Mel
+Sukshith
+Warren
+
+_SpecialThanks
+Netflix Games
+Mills & Sinx
+Eric Åberg
+Sam Barratt
+Tetiana Brahina
+Robyn Bremner
+Meghna Jayanth
+Joe Kanonik
+Jennie Kong
+Deborah Mensah-Bonsu
+Dom Shaw
+The Atlantic Council's Climate Resilience Center
+Atlassian Corporation
+The Conversation Space
+Forpeople
+GameTester.gg
+IGDA Climate SIG
+The International Red Cross
+Liberty Woodland
+Miro
+Playing for the Planet
+PlaytestCloud
+The Point
+TypeType
+Unity
+ustwo Studios
+YRS Truly
+
+!divider-fancy
+~
+
+_Playtesters
+$ThanksInspire
+~
+$CreditsEnding
+
+!MV3-ending

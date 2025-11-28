@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Chapter3_Boatem
+  m_Shaders:
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 8
+  - first: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 10755, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 391e2bd9906a2db448cce41387b408de, type: 3}
+    second:
+      variants:
+      - keywords: AO_LERP AO_ON BLEND_MODE_NONE GLOW_ON VERTEX_COLOR_ON VERT_LERP
+        passType: 4
+      - keywords: AO_LERP AO_ON BLEND_MODE_NONE INVERT_X_Z_ON POINTLIGHTS_ON VERTEX_COLOR_ON VERT_LERP
+        passType: 4
+      - keywords: AO_MULT AO_ON BLEND_MODE_NONE HSV_SHIFT_ON MAIN_TEXTURE_MULT TEXTURE_ON VERTEX_COLOR_ON VERT_MULT X_GRADIENT_ON Y_GRADIENT_ON Z_GRADIENT_ON
+        passType: 4
+      - keywords: AO_MULT AO_ON BLEND_MODE_NONE INVERT_X_Z_ON X_GRADIENT_ON Y_FOG_ON Y_GRADIENT_ON Z_GRADIENT_ON
+        passType: 4
+      - keywords: AO_MULT AO_ON BLEND_MODE_NONE MAIN_TEXTURE_ADD TEXTURE_ON
+        passType: 4
+      - keywords: AO_ON BLEND_MODE_NONE GLOW_ON HSV_SHIFT_ON
+        passType: 4
+      - keywords: AO_ON BLEND_MODE_NONE HSV_SHIFT_ON TEXTURE_ON X_GRADIENT_ON Y_GRADIENT_ON Z_GRADIENT_ON
+        passType: 4
+      - keywords: AO_ON BLEND_MODE_NONE INVERT_X_Z_ON POINTLIGHTS_ON
+        passType: 4
+      - keywords: AO_ON BLEND_MODE_NONE INVERT_X_Z_ON X_GRADIENT_ON Y_FOG_ON Y_GRADIENT_ON Z_GRADIENT_ON
+        passType: 4
+      - keywords: AO_ON BLEND_MODE_NONE TEXTURE_ON
+        passType: 4
+      - keywords: BLEND_MODE_ADD FOLLOW_WATER_ON
+        passType: 4
+      - keywords: BLEND_MODE_ADD MAIN_TEXTURE_MULT TEXTURE_ON TINT_COLOR_ON
+        passType: 4
+      - keywords: BLEND_MODE_ADD MAIN_TEXTURE_MULT TEXTURE_ON TINT_COLOR_ON VFX_MAT_ON
+        passType: 4
+      - keywords: BLEND_MODE_ADD TEXTURE_ON TINT_COLOR_ON
+        passType: 4
+      - keywords: BLEND_MODE_ADD VERTEX_COLOR_ON VERT_MULT
+        passType: 4
+      - keywords: BLEND_MODE_NONE CLIP_ON MAIN_TEXTURE_MULT TEXTURE_ON
+        passType: 4
+      - keywords: BLEND_MODE_NONE FOLLOW_WATER_ON TINT_COLOR_ON
+        passType: 4
+      - keywords: BLEND_MODE_NONE GLOW_ON MAIN_TEXTURE_MULT TEXTURE_ON
+        passType: 4
+      - keywords: BLEND_MODE_NONE GLOW_ON TEXTURE_ON
+        passType: 4
+      - keywords: BLEND_MODE_NONE HSV_SHIFT_ON ROTATIONAL_WOBBLER_ON VERTEX_WOBBLER_ON
+        passType: 4
+      - keywords: BLEND_MODE_NONE MAIN_TEXTURE_LERP TEXTURE_ON X_GRADIENT_ON Y_GRADIENT_ON Z_GRADIENT_ON
+        passType: 4
+      - keywords: BLEND_MODE_TRANSPARENT CAMERA_SPACE_TEXTURE_ON CAM_SPACE_TEX_WRAP_CLAMP CAM_TEX_BLEND_MULT MAIN_TEXTURE_ADD TEXTURE_ON
+        passType: 4
+      - keywords: BLEND_MODE_TRANSPARENT CAMERA_SPACE_TEXTURE_ON TEXTURE_ON
+        passType: 4
+      - keywords: CLIP_ON SHADOWS_DEPTH
+        passType: 8
+      - keywords: FOLLOW_WATER_ON SHADOWS_DEPTH
+        passType: 8
+      - keywords: ROTATIONAL_WOBBLER_ON SHADOWS_DEPTH SHADOW_CASTER_ON VERTEX_WOBBLER_ON
+        passType: 8
+      - keywords: ROTATIONAL_WOBBLER_ON SHADOWS_DEPTH VERTEX_WOBBLER_ON
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH SHADOW_CASTER_ON
+        passType: 8
+      - keywords: SHADOWS_DEPTH VERTEX_WOBBLER_ON
+        passType: 8
+  - first: {fileID: 4800000, guid: 04f11d23d20d1544f9df367093ea69fe, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 63e7205b15db66f43817fef5593b3836, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 407e469c4ecf2284996e2a8d03ccaa91, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 9cf75776eb527324a8d1b83f41b6180f, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: c231ef6bb6dd59247a42e0af7462dfce, type: 3}
+    second:
+      variants:
+      - keywords: TEXTURE_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 908a31225fa37074e8c759a56e268bcc, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+      - keywords:
+        passType: 8
+  - first: {fileID: 4800000, guid: 81395b0dd56027642b4498d67cc99df2, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 5f7e566367029a0438c7870cd8f09df6, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 857fc87441107ff44a71f6f43546a887, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: 7524c1f603d9b434e937438ae74beef8, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 8
+  - first: {fileID: 4800000, guid: 2e3384fd85da8404cb4927f88d8018b4, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 0
+  - first: {fileID: 4800000, guid: b757b6864ff485145a7e81fad895a382, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 827859f24c4c3e041afd6a2244357cf0, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 8
+  - first: {fileID: 4800000, guid: 9dd45d916adfbb64caecb7f00b9a8969, type: 3}
+    second:
+      variants:
+      - keywords:
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8

@@ -1,0 +1,30 @@
+WaitForTitleScreen
+
+WaitSeconds: 18
+Mover: pivot rotator, -90.00
+Nav: 73.48, -24.50, 10.78
+Nav: 76.76, -24.72, 11.07
+
+# Prelude cutscene
+WaitSeconds: 60
+
+Tap: LighthouseTapTrigger
+
+WaitSeconds: 30
+
+Button: ContinueButton
+
+WaitSeconds: 17
+
+Nav: 149.68, -16.57, 83.11
+
+# Storyteller moment
+WaitSeconds: 10
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 6
+
+Nav: 153.68, -23.57, 93.11

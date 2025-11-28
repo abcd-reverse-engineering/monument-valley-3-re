@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1397048991, guid: 2588fb1dc7688e7a6367ccad0c6da679, type: 3}
+  m_Name: Rotator_sailing_water_impact_02_dockb
+  m_EditorClassIdentifier:
+  _triggerEventsOnInteraction: 1
+  _events:
+    start:
+      idInternal: 0
+      valueGuidInternal:
+      WwiseObjectReference: {fileID: 11400000, guid: 8a567a0c1201205499c29cd29f044320, type: 2}
+    stop:
+      idInternal: 0
+      valueGuidInternal:
+      WwiseObjectReference: {fileID: 11400000, guid: b73d01f9cbb2e704dbecfac5521727db, type: 2}
+  _parameters:
+    speed:
+      idInternal: 0
+      valueGuidInternal:
+      WwiseObjectReference: {fileID: 11400000, guid: 8fbde71e98951e64aafd0fa83c859234, type: 2}
+    angle:
+      idInternal: 0
+      valueGuidInternal:
+      WwiseObjectReference: {fileID: 0}
+    position:
+      idInternal: 0
+      valueGuidInternal:
+      WwiseObjectReference: {fileID: 11400000, guid: 08f3d43cdc5e4a34f9ac60ae57df7d8f, type: 2}
+  _sendChangeDirectionSwitch: 1
+  _useGlobalParameters: 0
+  _globalParameters:
+    speed:
+      idInternal: 0
+      valueGuidInternal:
+      WwiseObjectReference: {fileID: 0}
+    angle:
+      idInternal: 0
+      valueGuidInternal:
+      WwiseObjectReference: {fileID: 0}
+    position:
+      idInternal: 0
+      valueGuidInternal:
+      WwiseObjectReference: {fileID: 0}
+  _highPass: 0
+  _lowPass: 0
+  _pitch: 50
+  _sendDelayLong: 0
+  _sendVerbExLong: 0
+  _sendVerbLong: 0
+  _sendVerbShort: 30.1
+  _volume: 2.4

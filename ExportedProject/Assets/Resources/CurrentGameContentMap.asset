@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 420549408, guid: 2588fb1dc7688e7a6367ccad0c6da679, type: 3}
+  m_Name: CurrentGameContentMap
+  m_EditorClassIdentifier:
+  _chapterSelect:
+    <ScenePath>k__BackingField: Assets/Scenes/!ProductionScenes/ChapterSelect_Lighthouse.unity
+    <EntryFadeTime>k__BackingField: 2.8
+    <ExitFadeTime>k__BackingField: 2
+    <ExitFadeColor>k__BackingField: {r: 1, g: 1, b: 1, a: 1}
+    <SkipTitleScreenOnResume>k__BackingField: 0
+    <AutomatedPlaythroughScript>k__BackingField: {fileID: 4900000, guid: 94c0bdc878429ab46b0eccd1c88e31a8, type: 3}
+    <PlaystationLightbarColor>k__BackingField: {r: 1, g: 1, b: 1, a: 1}
+  _chapters:
+  - {fileID: 11400000, guid: c0385f5195a8ea14daed51036ff24034, type: 2}
+  - {fileID: 11400000, guid: 4f7ea0b42c4173647b6f3fd16f7661d4, type: 2}
+  - {fileID: 11400000, guid: aa47bd9aa53a6bf429e13f1f064b1bc6, type: 2}
+  - {fileID: 11400000, guid: df552628ae545154981db3f1b000e947, type: 2}
+  - {fileID: 11400000, guid: 8534ec37c914c5d4fa7a6215736a3780, type: 2}
+  - {fileID: 11400000, guid: e74b84f9e20ba7a4490a3477f55b3792, type: 2}
+  - {fileID: 11400000, guid: a3f4dfdef201a244aa2946ed2a3d231e, type: 2}
+  - {fileID: 11400000, guid: 2d81a0ee497296c40b483a4bbf87b3eb, type: 2}
+  - {fileID: 11400000, guid: 4b82c850145069347b483d6a07e7b530, type: 2}
+  - {fileID: 11400000, guid: 368cf8b2d2be4844981fea365d8c0769, type: 2}
+  _initialActiveChapterCount: 10
+  _liveOpsSeasons: []

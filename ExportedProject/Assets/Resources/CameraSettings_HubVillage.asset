@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1014656230, guid: 2588fb1dc7688e7a6367ccad0c6da679, type: 3}
+  m_Name: CameraSettings_HubVillage
+  m_EditorClassIdentifier:
+  supportedAspectRatios:
+  - name: 9:16
+    color: {r: 1, g: 0, b: 0, a: 1}
+    aspectRatio: 0.5625
+    numHorizontalBlocks: 10.5
+    closeZoom: 0.5
+    mediumCloseZoom: 0.75
+    plinthZoom: 0.5
+    wideZoom: 2.1
+    levelSelectWideZoom: 1.1375
+    titleScreenZoom: 1.2
+    rotatorsTutWelcomeChildZoom: 0.8
+    sailingZoom: 1.25
+    ultraClose: 0.25
+  - name: 3:4
+    color: {r: 0.08223397, g: 0.47394717, b: 0.8602941, a: 1}
+    aspectRatio: 0.75
+    numHorizontalBlocks: 15.4
+    closeZoom: 0.5
+    mediumCloseZoom: 0.75
+    plinthZoom: 0.5
+    wideZoom: 2.1
+    levelSelectWideZoom: 1.1375
+    titleScreenZoom: 1.2
+    rotatorsTutWelcomeChildZoom: 0.8
+    sailingZoom: 1.25
+    ultraClose: 0.25
+  - name: 9:20
+    color: {r: 0.3277926, g: 0.85882354, b: 0.082352936, a: 1}
+    aspectRatio: 0.45
+    numHorizontalBlocks: 10.5
+    closeZoom: 0.5
+    mediumCloseZoom: 0.75
+    plinthZoom: 0.5
+    wideZoom: 2.1
+    levelSelectWideZoom: 1.1375
+    titleScreenZoom: 1.2
+    rotatorsTutWelcomeChildZoom: 0.8
+    sailingZoom: 1.25
+    ultraClose: 0.25
+  - name: 16:9
+    color: {r: 0.85882354, g: 0.082352936, b: 0.80047804, a: 1}
+    aspectRatio: 1.777778
+    numHorizontalBlocks: 33
+    closeZoom: 0.5
+    mediumCloseZoom: 0.75
+    plinthZoom: 0.5
+    wideZoom: 2.1
+    levelSelectWideZoom: 1.1375
+    titleScreenZoom: 1.2
+    rotatorsTutWelcomeChildZoom: 0.8
+    sailingZoom: 1.25
+    ultraClose: 0.25
+  - name: 21:9
+    color: {r: 0.85882354, g: 0.6622093, b: 0.082352936, a: 1}
+    aspectRatio: 2.333333
+    numHorizontalBlocks: 43
+    closeZoom: 0.5
+    mediumCloseZoom: 0.75
+    plinthZoom: 0.5
+    wideZoom: 1.5
+    levelSelectWideZoom: 1.1375
+    titleScreenZoom: 1.2
+    rotatorsTutWelcomeChildZoom: 0.95
+    sailingZoom: 1.25
+    ultraClose: 0.25

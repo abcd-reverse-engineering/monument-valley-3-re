@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1980688089, guid: a23c3f10613c5399b16942d2484d36d8, type: 3}
+  m_Name: DevPanelSettings
+  m_EditorClassIdentifier:
+  devPanelPrefab: {fileID: 1924846521896573, guid: b91f4ba8df876504fbdf11081ded4f9a, type: 2}
+  triggerOption: 1
+  triggerButtonSize: 10
+  triggerZonePosition: 2
+  iphoneXSafeAreaTest: 0
+  keyCodeTrigger: 109
+  swipeDirectionTrigger: 0
+  swipeFingerCount: 3
+  swipeTransitionSpeed: 7.6
+  emailLogRecipient: ustwogamestest@gmail.com
+  enableEventSystemGeneration: 0
+  triggerActionOverride:
+    m_Name: Trigger Action Override
+    m_Type: 0
+    m_ExpectedControlType:
+    m_Id: cdb8a137-5c73-4097-a88d-84578d9a958e
+    m_Processors:
+    m_Interactions:
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  cursorClickOverride:
+    m_Name: Cursor Click Override
+    m_Type: 0
+    m_ExpectedControlType:
+    m_Id: 2954c5d6-40f1-48d1-830f-c0147f3337ec
+    m_Processors:
+    m_Interactions:
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  autoInitialiseGamepad: 1

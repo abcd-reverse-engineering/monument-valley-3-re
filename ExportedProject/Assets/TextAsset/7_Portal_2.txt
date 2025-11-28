@@ -1,0 +1,19 @@
+WaitForTitleScreen
+
+WaitSeconds: 4
+
+Mover: rotator, 1080.00
+Nav: -2.00, 0.50, 2.00
+
+Mover: dragger, -5.00
+Mover: rotator, 2160.00
+
+# NPCs reunite <3
+WaitSeconds: 6
+Nav: 10.01, 0.50, 11.00
+
+# Exit door reveal
+WaitSeconds: 8
+
+# Enter door
+Nav: 6.00, 0.50, 11.99

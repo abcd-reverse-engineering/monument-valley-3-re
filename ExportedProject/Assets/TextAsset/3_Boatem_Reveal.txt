@@ -1,0 +1,70 @@
+WaitForTitleScreen
+TimeScale: default
+# Wait for level to emerge
+WaitSeconds: 8
+
+Mover: mover: stairs 1, -2.00
+Nav: 49.00, -5.00, 29.50
+Mover: mover: stairs 1, 0.00
+Nav: 53.00, -1.50, 34.50
+Mover: Rotator , 0.00
+Mover: Mover: stairs 2, 3.00
+Mover: Rotator , 90.00
+Nav: 54.00, 3.63, 29.50
+
+# Wait for totem reveal
+WaitSeconds: 10
+
+# Different from here
+Mover: Rotator , 90.00
+WaitSeconds: 2
+Nav: 56.00, 2.50, 30.50
+
+Totem: Babytem playable, 0.00, 0.00, -3.00
+Nav: 63.99, -3.38, 36.51
+Mover: Rotator , -90.00
+Totem: Babytem playable, 2.00, 0.00, 0.00
+Totem: Babytem playable, 2.00, 0.00, 3.00
+
+# Next scene section revealed
+WaitSeconds: 9
+
+# Move Totem to flower
+
+Mover: Totem button geo mover, 4.00
+Mover: rotator mover, 0.00
+Totem: Babytem playable, 2.00, 0.00, 0.00
+Mover: rotator mover, -180.00
+Totem: Babytem playable, 2.00, 0.00, 0.00
+Mover: rotator mover, 0.00
+
+Totem: Babytem playable, 1.00, 0.00, 0.00
+Totem: Babytem playable, 0.00, 0.00, 2.00
+Totem: Babytem playable, 3.00, -3.00, 4.00
+Mover: rotator mover, -180.00
+Totem: Babytem playable, 1.00, 0.00, 0.00
+Mover: rotator mover, 0.00
+Totem: Babytem playable, 0.00, 0.00, 5.00
+
+WaitSeconds: 20
+
+BoardBoat
+
+# Sail to next island
+Sail: 90.61, -7.64, 41.62
+Sail: 98.01, -7.64, 22.31
+Sail: 74.56, -7.64, -8.07
+Sail: 52.87, -7.64, -44.16
+Sail: 67.99, -7.64, -60.69
+Mover: DRAGGER_Gate, 5.00
+Sail: 93.59, -7.64, -64.64
+Sail: 128.75, -7.64, -59.91
+Dock: 141.30, -7.49, -54.30
+Nav: 138.30, -1.35, -47.35
+
+# Gate reveal
+WaitSeconds: 10
+Nav: 141.30, -6.61, -53.30
+BoardBoat
+
+Sail: 157.64, -7.61, -42.30

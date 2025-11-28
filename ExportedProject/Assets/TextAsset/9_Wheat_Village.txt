@@ -1,0 +1,22 @@
+WaitForTitleScreen
+
+WaitSeconds: 14
+Tap: LighthouseTapTrigger
+# Unscaled screen fade
+TimeScale: 1
+WaitSeconds: 5
+TimeScale: default
+WaitSeconds: 10
+
+Nav: 5.39, -7.50, 5.00
+
+# Dialogue with Nomad
+WaitSeconds: 10
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 10
+
+Nav: 8.50, -10.51, 11.50

@@ -1,0 +1,26 @@
+WaitForTitleScreen
+
+# Noor fails to get of the boat sometimes?
+TimeScale: 1
+WaitSeconds: 14
+TimeScale: default
+Nav: 2.50, -8.00, 4.50
+
+# Flower moment
+# Speech bubble anim doesn't time scale
+TimeScale: 1
+WaitSeconds: 12
+TimeScale: default
+
+Nav: 5.50, -11.00, 4.50
+
+# Dialogue with Child
+WaitSeconds: 8
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 8
+
+Nav: 8.50, -10.50, 11.50

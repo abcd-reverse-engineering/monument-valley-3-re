@@ -1,0 +1,31 @@
+WaitForTitleScreen
+
+Mover: Rotator 1, -270.00
+Nav: 17.63, 5.00, 21.62
+Mover: Rotator 1, -450.00
+Nav: 19.17, 3.00, 21.98
+Mover: Rotator 1, -270.00
+Nav: 22.27, 2.25, 19.19
+Mover: Rotator 1, -450.00
+Nav: 6.88, 2.25, 10.87
+WaitSeconds: 5
+Nav: 2.00, 0.50, 7.00
+Mover: Rotator 2, -90.00
+Nav: 0.00, 0.50, -2.00
+Mover: Rotator 2, -270.00
+
+# Wait for water level change
+WaitSeconds: 2
+Nav: 4.00, -1.50, 6.00
+Mover: Rotator 2, -180.00
+Nav: 0.00, 0.50, 4.00
+Mover: Rotator 2, -360.00
+
+# Wait for water level change
+WaitSeconds: 2
+Nav: 3.00, -0.50, -3.00
+Mover: Rotator 2, -270.00
+
+# Wait for water level change
+WaitSeconds: 5
+Nav: 0.00, -1.50, 1.00

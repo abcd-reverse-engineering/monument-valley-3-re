@@ -1,0 +1,29 @@
+WaitForTitleScreen
+
+WaitSeconds: 2
+Nav: -1.00, 6.13, -8.00
+WaitSeconds: 2
+Nav: -4.00, 5.00, -8.00
+
+# Dialogue with architect
+# The speech bubble appearing isnt effected by time scale?
+TimeScale: 1
+WaitSeconds: 5
+Nav: -3.00, 5.50, -8.00
+TimeScale: default
+
+WaitSeconds: 10
+Button: FullScreen
+WaitSeconds: 5
+Button: FullScreen
+WaitSeconds: 5
+Button: FullScreen
+
+# Architect gives player the Staff
+WaitSeconds: 25
+
+# Player crosses bridge
+Nav: -3.00, 4.00, 0.00
+
+# Player returns to bow to architect
+Nav: -3.00, 5.00, 3.00

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1466549304002752
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4708069922895826}
+  - component: {fileID: 114630091623199307}
+  m_Layer: 0
+  m_Name: GamepadCursorConfig_Standard_ExtraSlow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4708069922895826
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466549304002752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114630091623199307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466549304002752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 811352699, guid: c0590dd943f62390985fe071454f936d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _glowCentreRadius: 0.025
+  _glowFalloffRadius: 0.1
+  deflectionDeadZone: 0.1
+  maxSelectionAngle: 30
+  selectionHeuristicAngleWeighting: 1
+  selectableSelectionRadius: 0.67
+  skipWarmupDeflectionThreshold: 0.95
+  moveWarmup:
+    minDuration: 0.05
+    maxDuration: 0.2
+    minDistance: 1.5
+    maxDistance: 4
+  moveCooldown:
+    minDuration: 0.15
+    maxDuration: 0.3
+    minDistance: 1.5
+    maxDistance: 4
+  firstMoveCooldown: 0.2
+  interactionCancelledMoveCooldown: 1
+  _navToDragTimeThreshold: 0.2

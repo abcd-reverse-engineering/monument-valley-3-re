@@ -1,0 +1,22 @@
+WaitForTitleScreen
+
+# NPC boards boat
+WaitSeconds: 14
+
+# NPC dialogue
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+WaitSeconds: 4
+Button: FullScreen
+
+WaitSeconds: 10
+
+# Unscaled screen fade
+TimeScale: 1
+WaitSeconds: 8
+
+TimeScale: default
+WaitSeconds: 15
+
+Nav: 8.50, -10.75, 11.00

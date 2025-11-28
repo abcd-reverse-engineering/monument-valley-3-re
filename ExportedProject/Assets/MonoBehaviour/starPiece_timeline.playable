@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 337831424, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: starPiece_timeline
+  m_EditorClassIdentifier:
+  m_Version: 0
+  m_Tracks:
+  - {fileID: 114766190017440131}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 60
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 0}
+--- !u!114 &114766190017440131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 1f79187d04fa6fdd168e19d4bafe7dfa, type: 3}
+  m_Name: Track Group
+  m_EditorClassIdentifier:
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename:
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 11400000, guid: 29def46a8f34c17499bd4f7d7749cdd4, type: 2}
+  - {fileID: 11400000, guid: 8b18b45ff4d3395438b172fd64b865a2, type: 2}
+  - {fileID: 11400000, guid: 406987016c5f1224b8ec6c94174c9f15, type: 2}
+  - {fileID: 11400000, guid: ef79fc95aa19cac43abf9bce34cd9c43, type: 2}
+  - {fileID: 11400000, guid: 0470c73591756624792b178476319f79, type: 2}
+  - {fileID: 11400000, guid: b08a33629ac21ce40974c67c8c85c552, type: 2}
+  - {fileID: 11400000, guid: d6c0694de74827a4aa5383a40b86e19a, type: 2}
+  - {fileID: 11400000, guid: 5df31a24a355f1f4db69d17a9e14321f, type: 2}
+  - {fileID: 11400000, guid: 718927beb7da2274db880b0774cd5947, type: 2}
+  - {fileID: 11400000, guid: debebbc29a54d9441aae267621a4bb3b, type: 2}
+  - {fileID: 11400000, guid: 08f023b8cf1299c40ae0aa325190bb2c, type: 2}
+  - {fileID: 11400000, guid: 93039b928b6102c44951896b65ecab69, type: 2}
+  - {fileID: 11400000, guid: 7f26a05b900258e44b318a84c237159e, type: 2}
+  - {fileID: 11400000, guid: 62bcc35ce3c07fe4c8c684b0f522e5cd, type: 2}
+  - {fileID: 11400000, guid: aaf60ad1cb81cfa4da340790b839e0df, type: 2}
+  - {fileID: 11400000, guid: 7e63877076510d944808d590dbb6329e, type: 2}
+  - {fileID: 11400000, guid: e069d42706c389d41b1aca34fe2cde31, type: 2}
+  - {fileID: 11400000, guid: 9ae10f8a3d12ebe44807a805b3fc6173, type: 2}
+  - {fileID: 11400000, guid: 72987d1e2c0ccb74bb317a2b17d774f6, type: 2}
+  - {fileID: 11400000, guid: 8c95be6055902a849b49ed8b5e5a06db, type: 2}
+  - {fileID: 11400000, guid: f32d8f5f96e65f947bd2538b48690502, type: 2}
+  - {fileID: 11400000, guid: 0c7ed72e67f8b7046821017b9b94d2a0, type: 2}
+  - {fileID: 11400000, guid: bba0cf65206be4d4a9946cf8ef6c780a, type: 2}
+  - {fileID: 11400000, guid: 5b6c2e74c85df4b4cbbaa710cba535b5, type: 2}
+  - {fileID: 11400000, guid: 780ab717c5014d8409f04f3578f22b96, type: 2}
+  - {fileID: 11400000, guid: 31eef8a85a2dcba4fb5a86d59276c9b4, type: 2}
+  - {fileID: 11400000, guid: 913c74025c6af4e42a63fbcc9d5ce6be, type: 2}
+  - {fileID: 11400000, guid: 3fbfb16e62f50ed45b2fcbbb7ab9bef8, type: 2}
+  - {fileID: 11400000, guid: 76e81642e8e6d6046bb8753802ca20e8, type: 2}
+  - {fileID: 11400000, guid: 7c03aecd3be0de9479f3e39154342c62, type: 2}
+  - {fileID: 11400000, guid: 8e8390e99460b364e964ce882941cea7, type: 2}
+  - {fileID: 11400000, guid: dd127598f7aef864b8e2cb763af6656a, type: 2}
+  - {fileID: 11400000, guid: c59a9bb955de1124cb916eb8e5531705, type: 2}
+  - {fileID: 11400000, guid: b2f600ade30936f4e98202694fc18134, type: 2}
+  - {fileID: 11400000, guid: f973e67a9ec9d5842afff2a43f0992bf, type: 2}
+  - {fileID: 11400000, guid: b88d5f5f13b8a044a9e7d9870f231a74, type: 2}
+  - {fileID: 11400000, guid: ab9dc8513c21c1e418f629b6ecfc7c2f, type: 2}
+  - {fileID: 11400000, guid: 52d0135da6af92a45ba9a07892680194, type: 2}
+  - {fileID: 11400000, guid: fc22bb6be716533478fa42d4b87acbb4, type: 2}
+  - {fileID: 11400000, guid: edcff2f7d574bb24d9a519e61dc1523d, type: 2}
+  - {fileID: 11400000, guid: 6388e2392c77e5b4bbeeb467ede693ae, type: 2}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
